@@ -1,0 +1,1 @@
+g++ -o utkuhecklerbabapro App.cpp -lssl -lcrypto -lbe
