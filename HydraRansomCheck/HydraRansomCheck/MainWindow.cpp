@@ -91,6 +91,14 @@ BMenuBar* MainWindow::_BuildMenu()
 
     menuBar->AddItem(menu);
 
+    // 'Help' Menu
+    menu = new BMenu(B_TRANSLATE("Help"));
+    item = new BMenuItem(B_TRANSLATE("About" B_UTF8_ELLIPSIS), new BMessage(B_ABOUT_REQUESTED));
+    item->SetTarget(be_app);
+    menu->AddItem(item);
+
+    menuBar->AddItem(menu);
+
     return menuBar;
 }
 
@@ -128,7 +136,7 @@ void MainWindow::MonitorDesktop()
                     if (std::find(knownExtensions.begin(), knownExtensions.end(), parts.back()) == knownExtensions.end()) {
                         // Unknown extension found, send shutdown command
                         printf("Unknown extension found: %s, shutting down...\n", parts.back().c_str());
-                        system("shutdown -h now");
+                        system("shutdown -q");
                     }
                 }
             }
