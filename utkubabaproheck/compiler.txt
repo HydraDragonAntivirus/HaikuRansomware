@@ -1,1 +1,2 @@
 g++ -o utkuhecklerbabapro App.cpp -lssl -lcrypto -lbe
+nasm -f bin utkudrk.asm -o utkudrk.bin

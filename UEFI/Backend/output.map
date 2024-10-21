@@ -1,0 +1,1341 @@
+
+Discarded input sections
+
+ .debug_info    0x0000000000000000     0x3c1c C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/misc.o
+ .debug_abbrev  0x0000000000000000      0x3c6 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/misc.o
+ .debug_loclists
+                0x0000000000000000      0xa70 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/misc.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/misc.o
+ .debug_macro   0x0000000000000000    0x13668 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/misc.o
+ .debug_line    0x0000000000000000      0x7f2 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/misc.o
+ .debug_str     0x0000000000000000       0x98 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/misc.o
+ .debug_line_str
+                0x0000000000000000      0x48f C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/misc.o
+ .debug_frame   0x0000000000000000      0x410 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/misc.o
+ .debug_info    0x0000000000000000     0x43d6 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/print.o
+ .debug_abbrev  0x0000000000000000      0x3fa C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/print.o
+ .debug_loclists
+                0x0000000000000000      0xe69 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/print.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/print.o
+ .debug_macro   0x0000000000000000    0x136b5 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/print.o
+ .debug_line    0x0000000000000000     0x10ad C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/print.o
+ .debug_str     0x0000000000000000       0x53 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/print.o
+ .debug_line_str
+                0x0000000000000000      0x492 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/print.o
+ .rdata$.refptr.ST
+                0x0000000000000000       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/print.o
+ .debug_frame   0x0000000000000000      0x610 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/print.o
+ .debug_info    0x0000000000000000      0xc25 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/smbios.o
+ .debug_abbrev  0x0000000000000000      0x193 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/smbios.o
+ .debug_loclists
+                0x0000000000000000       0xda C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/smbios.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/smbios.o
+ .debug_macro   0x0000000000000000    0x13668 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/smbios.o
+ .debug_line    0x0000000000000000      0x28a C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/smbios.o
+ .debug_str     0x0000000000000000       0x2e C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/smbios.o
+ .debug_line_str
+                0x0000000000000000      0x495 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/smbios.o
+ .debug_frame   0x0000000000000000       0x78 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/smbios.o
+ .debug_info    0x0000000000000000     0x2400 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/sread.o
+ .debug_abbrev  0x0000000000000000      0x355 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/sread.o
+ .debug_loclists
+                0x0000000000000000      0x30b C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/sread.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/sread.o
+ .debug_macro   0x0000000000000000    0x136a2 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/sread.o
+ .debug_line    0x0000000000000000      0x445 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/sread.o
+ .debug_str     0x0000000000000000       0x5a C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/sread.o
+ .debug_line_str
+                0x0000000000000000      0x492 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/sread.o
+ .rdata$.refptr.BS
+                0x0000000000000000       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/sread.o
+ .debug_frame   0x0000000000000000       0xf8 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/sread.o
+ .debug_info    0x0000000000000000     0x10b5 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/str.o
+ .debug_abbrev  0x0000000000000000      0x2a0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/str.o
+ .debug_loclists
+                0x0000000000000000      0x6b8 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/str.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/str.o
+ .debug_macro   0x0000000000000000    0x13668 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/str.o
+ .debug_line    0x0000000000000000      0x73f C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/str.o
+ .debug_str     0x0000000000000000       0x1f C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/str.o
+ .debug_line_str
+                0x0000000000000000      0x48c C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/str.o
+ .debug_frame   0x0000000000000000      0x358 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/str.o
+ .debug_info    0x0000000000000000      0x3bd C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/boxdraw.o
+ .debug_abbrev  0x0000000000000000       0xdc C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/boxdraw.o
+ .debug_loclists
+                0x0000000000000000       0x44 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/boxdraw.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/boxdraw.o
+ .debug_macro   0x0000000000000000    0x13668 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/boxdraw.o
+ .debug_line    0x0000000000000000      0x21c C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/boxdraw.o
+ .debug_str     0x0000000000000000        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/boxdraw.o
+ .debug_line_str
+                0x0000000000000000      0x498 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/boxdraw.o
+ .debug_frame   0x0000000000000000       0x60 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/boxdraw.o
+ .debug_info    0x0000000000000000     0x30bb C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/cmdline.o
+ .debug_abbrev  0x0000000000000000      0x272 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/cmdline.o
+ .debug_loclists
+                0x0000000000000000      0x121 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/cmdline.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/cmdline.o
+ .debug_macro   0x0000000000000000    0x13728 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/cmdline.o
+ .debug_line    0x0000000000000000      0x2de C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/cmdline.o
+ .debug_str     0x0000000000000000       0x4c C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/cmdline.o
+ .debug_line_str
+                0x0000000000000000      0x4a7 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/cmdline.o
+ .rdata$.refptr.BS
+                0x0000000000000000       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/cmdline.o
+ .debug_frame   0x0000000000000000       0x88 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/cmdline.o
+ .debug_info    0x0000000000000000     0x284b C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/console.o
+ .debug_abbrev  0x0000000000000000      0x24e C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/console.o
+ .debug_loclists
+                0x0000000000000000      0x10f C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/console.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/console.o
+ .debug_macro   0x0000000000000000    0x13668 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/console.o
+ .debug_line    0x0000000000000000      0x239 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/console.o
+ .debug_str     0x0000000000000000       0x15 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/console.o
+ .debug_line_str
+                0x0000000000000000      0x498 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/console.o
+ .rdata$.refptr.ST
+                0x0000000000000000       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/console.o
+ .debug_frame   0x0000000000000000       0xa8 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/console.o
+ .debug_info    0x0000000000000000      0x576 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/crc.o
+ .debug_abbrev  0x0000000000000000      0x121 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/crc.o
+ .debug_loclists
+                0x0000000000000000      0x164 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/crc.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/crc.o
+ .debug_macro   0x0000000000000000    0x13668 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/crc.o
+ .debug_line    0x0000000000000000      0x275 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/crc.o
+ .debug_str     0x0000000000000000        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/crc.o
+ .debug_line_str
+                0x0000000000000000      0x48c C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/crc.o
+ .debug_frame   0x0000000000000000       0xd0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/crc.o
+ .debug_info    0x0000000000000000     0x38f1 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/data.o
+ .debug_abbrev  0x0000000000000000      0x20e C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/data.o
+ .debug_aranges
+                0x0000000000000000       0x20 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/data.o
+ .debug_macro   0x0000000000000000    0x13668 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/data.o
+ .debug_line    0x0000000000000000      0x14c C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/data.o
+ .debug_str     0x0000000000000000       0x15 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/data.o
+ .debug_line_str
+                0x0000000000000000      0x48f C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/data.o
+ .debug_info    0x0000000000000000      0x306 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/debug.o
+ .debug_abbrev  0x0000000000000000       0xa5 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/debug.o
+ .debug_loclists
+                0x0000000000000000       0x58 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/debug.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/debug.o
+ .debug_macro   0x0000000000000000    0x13668 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/debug.o
+ .debug_line    0x0000000000000000      0x16f C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/debug.o
+ .debug_str     0x0000000000000000        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/debug.o
+ .debug_line_str
+                0x0000000000000000      0x492 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/debug.o
+ .debug_frame   0x0000000000000000       0x38 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/debug.o
+ .debug_info    0x0000000000000000     0x4e5e C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/dpath.o
+ .debug_abbrev  0x0000000000000000      0x3b6 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/dpath.o
+ .debug_loclists
+                0x0000000000000000     0x1566 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/dpath.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/dpath.o
+ .debug_macro   0x0000000000000000    0x13704 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/dpath.o
+ .debug_line    0x0000000000000000      0xfa7 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/dpath.o
+ .debug_str     0x0000000000000000       0xf9 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/dpath.o
+ .debug_line_str
+                0x0000000000000000      0x492 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/dpath.o
+ .rdata$.refptr.BS
+                0x0000000000000000       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/dpath.o
+ .debug_frame   0x0000000000000000      0x890 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/dpath.o
+ .debug_info    0x0000000000000000      0x3a1 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/error.o
+ .debug_abbrev  0x0000000000000000      0x11c C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/error.o
+ .debug_loclists
+                0x0000000000000000       0x77 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/error.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/error.o
+ .debug_macro   0x0000000000000000    0x13668 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/error.o
+ .debug_line    0x0000000000000000      0x1ab C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/error.o
+ .debug_str     0x0000000000000000        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/error.o
+ .debug_line_str
+                0x0000000000000000      0x492 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/error.o
+ .debug_frame   0x0000000000000000       0x38 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/error.o
+ .debug_info    0x0000000000000000     0x2a1b C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/event.o
+ .debug_abbrev  0x0000000000000000      0x283 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/event.o
+ .debug_loclists
+                0x0000000000000000      0x192 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/event.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/event.o
+ .debug_macro   0x0000000000000000    0x13668 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/event.o
+ .debug_line    0x0000000000000000      0x28f C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/event.o
+ .debug_str     0x0000000000000000       0x1c C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/event.o
+ .debug_line_str
+                0x0000000000000000      0x492 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/event.o
+ .rdata$.refptr.ST
+                0x0000000000000000       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/event.o
+ .rdata$.refptr.BS
+                0x0000000000000000       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/event.o
+ .debug_frame   0x0000000000000000       0xe0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/event.o
+ .debug_info    0x0000000000000000     0x18cd C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/exit.o
+ .debug_abbrev  0x0000000000000000      0x19e C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/exit.o
+ .debug_loclists
+                0x0000000000000000       0x57 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/exit.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/exit.o
+ .debug_macro   0x0000000000000000    0x13668 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/exit.o
+ .debug_line    0x0000000000000000      0x173 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/exit.o
+ .debug_str     0x0000000000000000        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/exit.o
+ .debug_line_str
+                0x0000000000000000      0x48f C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/exit.o
+ .rdata$.refptr.BS
+                0x0000000000000000       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/exit.o
+ .debug_frame   0x0000000000000000       0x38 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/exit.o
+ .debug_info    0x0000000000000000      0xaaa C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/guid.o
+ .debug_abbrev  0x0000000000000000      0x191 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/guid.o
+ .debug_loclists
+                0x0000000000000000       0x80 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/guid.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/guid.o
+ .debug_macro   0x0000000000000000    0x13862 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/guid.o
+ .debug_line    0x0000000000000000      0x1e2 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/guid.o
+ .debug_str     0x0000000000000000        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/guid.o
+ .debug_line_str
+                0x0000000000000000      0x48f C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/guid.o
+ .debug_frame   0x0000000000000000       0x90 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/guid.o
+ .debug_info    0x0000000000000000     0x2c27 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/hand.o
+ .debug_abbrev  0x0000000000000000      0x3c8 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/hand.o
+ .debug_loclists
+                0x0000000000000000      0x626 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/hand.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/hand.o
+ .debug_macro   0x0000000000000000    0x1366c C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/hand.o
+ .debug_line    0x0000000000000000      0x7db C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/hand.o
+ .debug_str     0x0000000000000000       0x90 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/hand.o
+ .debug_line_str
+                0x0000000000000000      0x48f C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/hand.o
+ .rdata$.refptr.gEfiSimpleFileSystemProtocolGuid
+                0x0000000000000000       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/hand.o
+ .rdata$.refptr.gEfiDevicePathProtocolGuid
+                0x0000000000000000       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/hand.o
+ .rdata$.refptr.BS
+                0x0000000000000000       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/hand.o
+ .debug_frame   0x0000000000000000      0x280 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/hand.o
+ .debug_info    0x0000000000000000     0x2048 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/hw.o
+ .debug_abbrev  0x0000000000000000      0x201 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/hw.o
+ .debug_loclists
+                0x0000000000000000      0x1b9 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/hw.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/hw.o
+ .debug_macro   0x0000000000000000    0x13668 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/hw.o
+ .debug_line    0x0000000000000000      0x238 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/hw.o
+ .debug_str     0x0000000000000000       0x1a C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/hw.o
+ .debug_line_str
+                0x0000000000000000      0x489 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/hw.o
+ .rdata$.refptr.BS
+                0x0000000000000000       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/hw.o
+ .debug_frame   0x0000000000000000       0xc8 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/hw.o
+ .debug_info    0x0000000000000000     0x3034 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+ .debug_abbrev  0x0000000000000000      0x2f6 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+ .debug_loclists
+                0x0000000000000000      0x204 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+ .debug_macro   0x0000000000000000    0x13668 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+ .debug_line    0x0000000000000000      0x379 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+ .debug_str     0x0000000000000000       0x57 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+ .debug_line_str
+                0x0000000000000000      0x48f C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+ .rdata$.refptr.LibStubUnicodeInterface
+                0x0000000000000000       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+ .rdata$.refptr.PoolAllocationType
+                0x0000000000000000       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+ .rdata$.refptr.gEfiLoadedImageProtocolGuid
+                0x0000000000000000       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+ .rdata$.refptr.ST
+                0x0000000000000000       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+ .rdata$.refptr.LibImageHandle
+                0x0000000000000000       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+ .rdata$.refptr.EFIDebug
+                0x0000000000000000       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+ .rdata$.refptr.gEfiGlobalVariableGuid
+                0x0000000000000000       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+ .rdata$.refptr.RT
+                0x0000000000000000       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+ .rdata$.refptr.UnicodeInterface
+                0x0000000000000000       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+ .rdata$.refptr.BS
+                0x0000000000000000       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+ .debug_frame   0x0000000000000000       0xf0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+ .debug_info    0x0000000000000000      0x388 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/lock.o
+ .debug_abbrev  0x0000000000000000       0xeb C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/lock.o
+ .debug_loclists
+                0x0000000000000000       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/lock.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/lock.o
+ .debug_macro   0x0000000000000000    0x13668 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/lock.o
+ .debug_line    0x0000000000000000      0x1b0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/lock.o
+ .debug_str     0x0000000000000000        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/lock.o
+ .debug_line_str
+                0x0000000000000000      0x48f C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/lock.o
+ .debug_frame   0x0000000000000000       0x70 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/lock.o
+ .debug_info    0x0000000000000000      0x122 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/callwrap.o
+ .debug_abbrev  0x0000000000000000       0x12 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/callwrap.o
+ .debug_aranges
+                0x0000000000000000       0x20 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/callwrap.o
+ .debug_macro   0x0000000000000000     0x324e C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/callwrap.o
+ .debug_line    0x0000000000000000       0x3a C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/callwrap.o
+ .debug_str     0x0000000000000000        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/callwrap.o
+ .debug_line_str
+                0x0000000000000000      0x14d C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/callwrap.o
+ .debug_line    0x0000000000000000       0xb5 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/efi_stub.o
+ .debug_line_str
+                0x0000000000000000       0xa1 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/efi_stub.o
+ .debug_info    0x0000000000000000       0x29 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/efi_stub.o
+ .debug_abbrev  0x0000000000000000       0x14 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/efi_stub.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/efi_stub.o
+ .debug_str     0x0000000000000000       0xaf C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/efi_stub.o
+ .debug_info    0x0000000000000000     0x2643 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/initplat.o
+ .debug_abbrev  0x0000000000000000      0x19f C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/initplat.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/initplat.o
+ .debug_macro   0x0000000000000000    0x13668 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/initplat.o
+ .debug_line    0x0000000000000000      0x165 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/initplat.o
+ .debug_str     0x0000000000000000       0x15 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/initplat.o
+ .debug_line_str
+                0x0000000000000000      0x4a9 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/initplat.o
+ .debug_frame   0x0000000000000000       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/initplat.o
+ .debug_info    0x0000000000000000      0x377 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/math.o
+ .debug_abbrev  0x0000000000000000       0x9b C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/math.o
+ .debug_loclists
+                0x0000000000000000       0x4d C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/math.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/math.o
+ .debug_macro   0x0000000000000000    0x13668 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/math.o
+ .debug_line    0x0000000000000000      0x1de C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/math.o
+ .debug_str     0x0000000000000000        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/math.o
+ .debug_line_str
+                0x0000000000000000      0x49d C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/math.o
+ .debug_frame   0x0000000000000000       0x78 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/math.o
+ .debug_line    0x0000000000000000       0x65 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/setjmp.o
+ .debug_line_str
+                0x0000000000000000       0x9f C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/setjmp.o
+ .debug_info    0x0000000000000000       0x28 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/setjmp.o
+ .debug_abbrev  0x0000000000000000       0x14 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/setjmp.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/setjmp.o
+ .debug_str     0x0000000000000000       0xad C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/setjmp.o
+ .debug_info    0x0000000000000000      0x5bd C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/efirtlib.o
+ .debug_abbrev  0x0000000000000000      0x113 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/efirtlib.o
+ .debug_loclists
+                0x0000000000000000      0x1d5 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/efirtlib.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/efirtlib.o
+ .debug_macro   0x0000000000000000    0x12eef C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/efirtlib.o
+ .debug_line    0x0000000000000000      0x2e3 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/efirtlib.o
+ .debug_str     0x0000000000000000        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/efirtlib.o
+ .debug_line_str
+                0x0000000000000000      0x438 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/efirtlib.o
+ .debug_frame   0x0000000000000000       0x90 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/efirtlib.o
+ .debug_info    0x0000000000000000     0x1067 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtdata.o
+ .debug_abbrev  0x0000000000000000      0x14a C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtdata.o
+ .debug_aranges
+                0x0000000000000000       0x20 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtdata.o
+ .debug_macro   0x0000000000000000    0x13668 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtdata.o
+ .debug_line    0x0000000000000000      0x14c C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtdata.o
+ .debug_str     0x0000000000000000       0x15 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtdata.o
+ .debug_line_str
+                0x0000000000000000      0x4a5 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtdata.o
+ .debug_info    0x0000000000000000     0x193c C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtlock.o
+ .debug_abbrev  0x0000000000000000      0x1bf C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtlock.o
+ .debug_loclists
+                0x0000000000000000       0x6f C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtlock.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtlock.o
+ .debug_macro   0x0000000000000000    0x13668 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtlock.o
+ .debug_line    0x0000000000000000      0x211 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtlock.o
+ .debug_str     0x0000000000000000        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtlock.o
+ .debug_line_str
+                0x0000000000000000      0x4a5 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtlock.o
+ .rdata$.refptr.BS
+                0x0000000000000000       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtlock.o
+ .debug_frame   0x0000000000000000       0x70 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtlock.o
+ .debug_info    0x0000000000000000      0x882 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtstr.o
+ .debug_abbrev  0x0000000000000000      0x131 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtstr.o
+ .debug_loclists
+                0x0000000000000000      0x3a8 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtstr.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtstr.o
+ .debug_macro   0x0000000000000000    0x13668 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtstr.o
+ .debug_line    0x0000000000000000      0x432 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtstr.o
+ .debug_str     0x0000000000000000        0x5 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtstr.o
+ .debug_line_str
+                0x0000000000000000      0x4a2 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtstr.o
+ .debug_frame   0x0000000000000000      0x1e0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtstr.o
+ .debug_info    0x0000000000000000     0x1194 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/vm.o
+ .debug_abbrev  0x0000000000000000      0x1e0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/vm.o
+ .debug_loclists
+                0x0000000000000000       0x92 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/vm.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/vm.o
+ .debug_macro   0x0000000000000000    0x13668 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/vm.o
+ .debug_line    0x0000000000000000      0x1ec C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/vm.o
+ .debug_str     0x0000000000000000       0x24 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/vm.o
+ .debug_line_str
+                0x0000000000000000      0x499 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/vm.o
+ .rdata$.refptr.LibRuntimeRestoreTPL
+                0x0000000000000000       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/vm.o
+ .rdata$.refptr.LibRuntimeRaiseTPL
+                0x0000000000000000       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/vm.o
+ .rdata$.refptr.LibRuntimeDebugOut
+                0x0000000000000000       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/vm.o
+ .rdata$.refptr.RT
+                0x0000000000000000       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/vm.o
+ .rdata$.refptr.LibFwInstance
+                0x0000000000000000       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/vm.o
+ .debug_frame   0x0000000000000000       0x90 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/vm.o
+ .debug_info    0x0000000000000000     0x43ee C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/bootx64.o
+ .debug_abbrev  0x0000000000000000      0x4ac C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/bootx64.o
+ .debug_loclists
+                0x0000000000000000      0xb27 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/bootx64.o
+ .debug_aranges
+                0x0000000000000000       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/bootx64.o
+ .debug_rnglists
+                0x0000000000000000       0xbc C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/bootx64.o
+ .debug_macro   0x0000000000000000    0x12fe6 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/bootx64.o
+ .debug_line    0x0000000000000000      0xae2 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/bootx64.o
+ .debug_str     0x0000000000000000       0x7a C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/bootx64.o
+ .debug_line_str
+                0x0000000000000000      0x3ef C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/bootx64.o
+ .debug_frame   0x0000000000000000      0x5c8 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/bootx64.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+                0x00000002ae250000                __image_base__ = 0x2ae250000
+                0x0000000000000001                __dll__ = 0x1
+                0x00000002ae250000                __ImageBase = 0x2ae250000
+                0x0000000000001000                __section_alignment__ = 0x1000
+                0x0000000000000200                __file_alignment__ = 0x200
+                0x0000000000000004                __major_os_version__ = 0x4
+                0x0000000000000000                __minor_os_version__ = 0x0
+                0x0000000000000000                __major_image_version__ = 0x0
+                0x0000000000000000                __minor_image_version__ = 0x0
+                0x0000000000000005                __major_subsystem_version__ = 0x5
+                0x0000000000000002                __minor_subsystem_version__ = 0x2
+                0x000000000000000a                __subsystem__ = 0xa
+                0x0000000000200000                __size_of_stack_reserve__ = 0x200000
+                0x0000000000001000                __size_of_stack_commit__ = 0x1000
+                0x0000000000100000                __size_of_heap_reserve__ = 0x100000
+                0x0000000000001000                __size_of_heap_commit__ = 0x1000
+                0x0000000000000000                __loader_flags__ = 0x0
+                0x0000000000000160                __dll_characteristics__ = 0x160
+LOAD C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/misc.o
+LOAD C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/print.o
+LOAD C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/smbios.o
+LOAD C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/sread.o
+LOAD C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/str.o
+LOAD C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/boxdraw.o
+LOAD C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/cmdline.o
+LOAD C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/console.o
+LOAD C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/crc.o
+LOAD C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/data.o
+LOAD C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/debug.o
+LOAD C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/dpath.o
+LOAD C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/error.o
+LOAD C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/event.o
+LOAD C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/exit.o
+LOAD C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/guid.o
+LOAD C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/hand.o
+LOAD C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/hw.o
+LOAD C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+LOAD C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/lock.o
+LOAD C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/callwrap.o
+LOAD C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/efi_stub.o
+LOAD C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/initplat.o
+LOAD C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/math.o
+LOAD C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/setjmp.o
+LOAD C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/efirtlib.o
+LOAD C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtdata.o
+LOAD C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtlock.o
+LOAD C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtstr.o
+LOAD C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/vm.o
+LOAD C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/bootx64.o
+                0x00000000000002f0                . = SIZEOF_HEADERS
+                0x0000000000001000                . = ALIGN (__section_alignment__)
+
+.text           0x00000002ae251000     0x6800
+ *(SORT_NONE(.init))
+ *(.text)
+ .text          0x00000002ae251000      0x820 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/misc.o
+                0x00000002ae251000                AllocatePool
+                0x00000002ae25103c                FreePool
+                0x00000002ae251053                ZeroMem
+                0x00000002ae251062                AllocateZeroPool
+                0x00000002ae25108d                SetMem
+                0x00000002ae2510a0                CopyMem
+                0x00000002ae2510af                ReallocatePool
+                0x00000002ae25110a                CompareMem
+                0x00000002ae251118                GrowBuffer
+                0x00000002ae2511b9                LibMemoryMap
+                0x00000002ae251253                LibGetVariableAndSize
+                0x00000002ae2512ee                LibGetVariable
+                0x00000002ae251301                LibDeleteVariable
+                0x00000002ae251368                LibSetNVVariable
+                0x00000002ae25138f                LibSetVariable
+                0x00000002ae2513b6                LibInsertToTailOfBootOrder
+                0x00000002ae2514be                ValidMBR
+                0x00000002ae2516ab                DecimaltoBCD
+                0x00000002ae2516bc                BCDtoDecimal
+                0x00000002ae2516cd                LibGetSystemConfigurationTable
+                0x00000002ae251741                LibGetUiString
+ .text          0x00000002ae251820     0x13e0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/print.o
+                0x00000002ae251820                _SPrint
+                0x00000002ae25189c                _PoolPrint
+                0x00000002ae25190d                IsLocalPrint
+                0x00000002ae25194c                _DbgOut
+                0x00000002ae25198e                PFLUSH
+                0x00000002ae2519d6                PSETATTR
+                0x00000002ae251a0c                PPUTC
+                0x00000002ae251a5f                PGETC
+                0x00000002ae251a90                PITEM
+                0x00000002ae251b9c                ValueToHex
+                0x00000002ae251c25                ValueToString
+                0x00000002ae251d23                FloatToString
+                0x00000002ae251df8                TimeToString
+                0x00000002ae251eaf                _Print
+                0x00000002ae25249f                DbgPrint
+                0x00000002ae25260a                _PoolCatPrint
+                0x00000002ae252666                UnicodeVSPrint
+                0x00000002ae2526ab                UnicodeSPrint
+                0x00000002ae2526c8                VPoolPrint
+                0x00000002ae252709                PoolPrint
+                0x00000002ae252730                AsciiVSPrint
+                0x00000002ae2527d1                CatPrint
+                0x00000002ae252808                _IPrint
+                0x00000002ae2528dd                Print
+                0x00000002ae252931                VPrint
+                0x00000002ae25296c                PrintAt
+                0x00000002ae2529ab                IPrint
+                0x00000002ae2529ef                IPrintAt
+                0x00000002ae252a21                AsciiPrint
+                0x00000002ae252a74                DumpHex
+ .text          0x00000002ae252c00      0x130 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/smbios.o
+                0x00000002ae252c00                LibGetSmbiosString
+                0x00000002ae252c5c                LibGetSmbiosSystemGuidAndSerialNumber
+ .text          0x00000002ae252d30      0x3d0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/sread.o
+                0x00000002ae252d30                OpenSimpleReadFile
+                0x00000002ae253044                ReadSimpleReadFile
+                0x00000002ae2530ba                CloseSimpleReadFile
+ .text          0x00000002ae253100      0x4c0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/str.o
+                0x00000002ae253100                StrCmp
+                0x00000002ae25310e                StrnCmp
+                0x00000002ae253145                LibStubStriCmp
+                0x00000002ae253159                LibStubStrLwrUpr
+                0x00000002ae25315a                StriCmp
+                0x00000002ae25318b                StrLwr
+                0x00000002ae2531b9                StrUpr
+                0x00000002ae2531e7                StrCpy
+                0x00000002ae2531f6                StrnCpy
+                0x00000002ae253205                StpCpy
+                0x00000002ae253213                StpnCpy
+                0x00000002ae253221                StrCat
+                0x00000002ae253230                StrnCat
+                0x00000002ae25323f                StrnLen
+                0x00000002ae25324d                StrLen
+                0x00000002ae25325b                StrSize
+                0x00000002ae253269                StrDuplicate
+                0x00000002ae2532a4                strlena
+                0x00000002ae2532be                strcmpa
+                0x00000002ae2532de                strncmpa
+                0x00000002ae253315                xtoi
+                0x00000002ae25338d                Atoi
+                0x00000002ae2533e8                MetaMatch
+                0x00000002ae25353b                LibStubMetaiMatch
+                0x00000002ae25354f                MetaiMatch
+ .text          0x00000002ae2535c0       0x90 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/boxdraw.o
+                0x00000002ae2535c0                LibIsValidTextGraphics
+                0x00000002ae253620                IsValidAscii
+                0x00000002ae253636                IsValidEfiCntlChar
+ .text          0x00000002ae253650      0x200 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/cmdline.o
+                0x00000002ae253784                GetShellArgcArgv
+ .text          0x00000002ae253850      0x110 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/console.o
+                0x00000002ae253850                Output
+                0x00000002ae253871                IInput
+                0x00000002ae25392c                Input
+ *fill*         0x00000002ae253960       0x20 
+ .text          0x00000002ae253980      0x140 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/crc.o
+                0x00000002ae253980                CalculateCrc
+                0x00000002ae2539ea                SetCrcAltSize
+                0x00000002ae253a0d                SetCrc
+                0x00000002ae253a22                CheckCrcAltSize
+                0x00000002ae253a71                CheckCrc
+ .text          0x00000002ae253ac0        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/data.o
+ .text          0x00000002ae253ac0       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/debug.o
+                0x00000002ae253ac0                DbgAssert
+ *fill*         0x00000002ae253af0       0x10 
+ .text          0x00000002ae253b00     0x1400 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/dpath.o
+                0x00000002ae2546be                DevicePathFromHandle
+                0x00000002ae2546f8                DevicePathInstance
+                0x00000002ae254784                DevicePathInstanceCount
+                0x00000002ae2547b6                DevicePathSize
+                0x00000002ae2547ee                DuplicateDevicePath
+                0x00000002ae254829                AppendDevicePath
+                0x00000002ae254913                AppendDevicePathNode
+                0x00000002ae254998                FileDevicePath
+                0x00000002ae254a38                UnpackDevicePath
+                0x00000002ae254b4f                AppendDevicePathInstance
+                0x00000002ae254c10                LibDevicePathToInterface
+                0x00000002ae254c9a                DevicePathToStr
+                0x00000002ae254df4                LibMatchDevicePaths
+                0x00000002ae254e52                LibDuplicateDevicePathInstance
+ .text          0x00000002ae254f00       0xc0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/error.o
+                0x00000002ae254f00                StatusToString
+ .text          0x00000002ae254fc0      0x200 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/event.o
+                0x00000002ae254fc0                LibCreateProtocolNotifyEvent
+                0x00000002ae255039                WaitForSingleEvent
+                0x00000002ae255121                WaitForEventWithTimeout
+ .text          0x00000002ae2551c0       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/exit.o
+                0x00000002ae2551c0                Exit
+ .text          0x00000002ae2551f0       0xe0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/guid.o
+                0x00000002ae2551f0                InitializeGuid
+                0x00000002ae2551f1                CompareGuid
+                0x00000002ae2551ff                GuidToString
+ *fill*         0x00000002ae2552d0       0x30 
+ .text          0x00000002ae255300      0x880 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/hand.o
+                0x00000002ae255300                LibLocateHandle
+                0x00000002ae2553aa                LibLocateProtocol
+                0x00000002ae25543d                LibLocateHandleByDiskSignature
+                0x00000002ae25576b                LibOpenRoot
+                0x00000002ae2557bd                LibFileInfo
+                0x00000002ae255821                LibFileSystemInfo
+                0x00000002ae255885                LibFileSystemVolumeLabelInfo
+                0x00000002ae2558e9                LibInstallProtocolInterfaces
+                0x00000002ae2559f4                LibUninstallProtocolInterfaces
+                0x00000002ae255a58                LibReinstallProtocolInterfaces
+ .text          0x00000002ae255b80      0x110 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/hw.o
+                0x00000002ae255b80                InitializeGlobalIoDevice
+                0x00000002ae255c06                ReadPort
+                0x00000002ae255c26                WritePort
+                0x00000002ae255c4b                ReadPciConfig
+                0x00000002ae255c6b                WritePciConfig
+ *fill*         0x00000002ae255c90       0x10 
+ .text          0x00000002ae255ca0      0x280 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+                0x00000002ae255ca0                InitializeUnicodeSupport
+                0x00000002ae255d85                EFIDebugVariable
+                0x00000002ae255ddd                InitializeLib
+                0x00000002ae255ec7                memset
+                0x00000002ae255ef4                memcpy
+ .text          0x00000002ae255f20       0x40 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/lock.o
+                0x00000002ae255f20                InitializeLock
+                0x00000002ae255f34                AcquireLock
+                0x00000002ae255f43                ReleaseLock
+ .text          0x00000002ae255f60        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/callwrap.o
+ .text          0x00000002ae255f60      0x180 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/efi_stub.o
+                0x00000002ae255f60                efi_call0
+                0x00000002ae255f6b                efi_call1
+                0x00000002ae255f79                efi_call2
+                0x00000002ae255f87                efi_call3
+                0x00000002ae255f98                efi_call4
+                0x00000002ae255fac                efi_call5
+                0x00000002ae255fc5                efi_call6
+                0x00000002ae255fe8                efi_call7
+                0x00000002ae256015                efi_call8
+                0x00000002ae25604c                efi_call9
+                0x00000002ae25608d                efi_call10
+ .text          0x00000002ae2560e0       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/initplat.o
+                0x00000002ae2560e0                InitializeLibPlatform
+ .text          0x00000002ae2560f0       0x40 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/math.o
+                0x00000002ae2560f0                LShiftU64
+                0x00000002ae2560f9                RShiftU64
+                0x00000002ae256102                MultU64x32
+                0x00000002ae25610a                DivU64x32
+ .text          0x00000002ae256130       0x60 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/setjmp.o
+                0x00000002ae256130                setjmp
+                0x00000002ae256155                longjmp
+ *fill*         0x00000002ae256190       0x10 
+ .text          0x00000002ae2561a0      0x120 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/efirtlib.o
+                0x00000002ae2561a0                RtZeroMem
+                0x00000002ae2561d4                RtSetMem
+                0x00000002ae2561f4                RtCopyMem
+                0x00000002ae25625c                RtCompareMem
+                0x00000002ae256294                RtCompareGuid
+ .text          0x00000002ae2562c0        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtdata.o
+ .text          0x00000002ae2562c0       0xb0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtlock.o
+                0x00000002ae2562c0                RtAcquireLock
+                0x00000002ae256315                RtReleaseLock
+ *fill*         0x00000002ae256370       0x10 
+ .text          0x00000002ae256380      0x260 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtstr.o
+                0x00000002ae256380                RtStrCmp
+                0x00000002ae2563c0                RtStrCpy
+                0x00000002ae2563f9                RtStpCpy
+                0x00000002ae256419                RtStrLen
+                0x00000002ae25642f                RtStrCat
+                0x00000002ae256454                RtStrnLen
+                0x00000002ae256474                RtStrnCpy
+                0x00000002ae2564ca                RtStpnCpy
+                0x00000002ae256524                RtStrnCat
+                0x00000002ae25656d                RtStrSize
+                0x00000002ae256594                RtBCDtoDecimal
+                0x00000002ae2565ad                RtDecimaltoBCD
+ .text          0x00000002ae2565e0       0xc0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/vm.o
+                0x00000002ae2565e0                RtLibEnableVirtualMappings
+                0x00000002ae256637                RtConvertList
+ .text          0x00000002ae2566a0      0xfc0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/bootx64.o
+                0x00000002ae2566a0                fabs
+                0x00000002ae2566b5                Sin
+                0x00000002ae25677a                my_rand
+                0x00000002ae256795                delay
+                0x00000002ae2567dd                random_color
+                0x00000002ae2568dc                rotating_characters_all_colors
+                0x00000002ae256aa5                complex_blur
+                0x00000002ae256bac                pixel_rain
+                0x00000002ae256c3b                wave_animation
+                0x00000002ae256d0a                text_explosion
+                0x00000002ae256db5                fading_text
+                0x00000002ae256e25                grid_animation
+                0x00000002ae256eb1                matrix_text_fall
+                0x00000002ae256f70                color_shifting
+                0x00000002ae256fce                flickering_text
+                0x00000002ae257048                flashing_borders
+                0x00000002ae25713e                random_patterns_symbols
+                0x00000002ae257239                play_beep
+                0x00000002ae25727d                dramatic_sound_effects
+                0x00000002ae2573ee                efi_main
+ *(SORT_BY_NAME(.text$*))
+ *(.text.*)
+ *(.gnu.linkonce.t.*)
+ *(.glue_7t)
+ *(.glue_7)
+                0x00000002ae257660                . = ALIGN (0x8)
+                0x00000002ae257660                ___CTOR_LIST__ = .
+                0x00000002ae257660                __CTOR_LIST__ = .
+                0x00000002ae257660        0x4 LONG 0xffffffffffffffff
+                0x00000002ae257664        0x4 LONG 0xffffffffffffffff
+ *(.ctors)
+ *(.ctor)
+ *(SORT_BY_NAME(.ctors.*))
+                0x00000002ae257668        0x4 LONG 0x0
+                0x00000002ae25766c        0x4 LONG 0x0
+                0x00000002ae257670                ___DTOR_LIST__ = .
+                0x00000002ae257670                __DTOR_LIST__ = .
+                0x00000002ae257670        0x4 LONG 0xffffffffffffffff
+                0x00000002ae257674        0x4 LONG 0xffffffffffffffff
+ *(.dtors)
+ *(.dtor)
+ *(SORT_BY_NAME(.dtors.*))
+                0x00000002ae257678        0x4 LONG 0x0
+                0x00000002ae25767c        0x4 LONG 0x0
+ *(SORT_NONE(.fini))
+ *(.gcc_exc)
+                [!provide]                        PROVIDE (etext = .)
+ *(.gcc_except_table)
+
+.data           0x00000002ae258000     0x1000
+                0x00000002ae258000                __data_start__ = .
+ *(.data)
+ .data          0x00000002ae258000        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/misc.o
+ .data          0x00000002ae258000       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/print.o
+                0x00000002ae258000                Hex
+ .data          0x00000002ae258010        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/smbios.o
+ .data          0x00000002ae258010        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/sread.o
+ .data          0x00000002ae258010        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/str.o
+ *fill*         0x00000002ae258010       0x10 
+ .data          0x00000002ae258020       0xe0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/boxdraw.o
+                0x00000002ae258020                UnicodeToPcAnsiOrAscii
+ .data          0x00000002ae258100        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/cmdline.o
+ .data          0x00000002ae258100        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/console.o
+ .data          0x00000002ae258100      0x400 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/crc.o
+                0x00000002ae258100                CRCTable
+ .data          0x00000002ae258500      0x500 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/data.o
+                0x00000002ae258500                ShellDynamicCommandProtocolGuid
+                0x00000002ae258510                ShellParametersProtocolGuid
+                0x00000002ae258520                ShellProtocolGuid
+                0x00000002ae258530                SimpleTextInputExProtocol
+                0x00000002ae258540                gEfiDebugSupportProtocolGuid
+                0x00000002ae258550                gEfiDebugImageInfoTableGuid
+                0x00000002ae258560                AbsolutePointerProtocol
+                0x00000002ae258570                SimplePointerProtocol
+                0x00000002ae258580                Tcp4Protocol
+                0x00000002ae258590                Tcp4ServiceBindingProtocol
+                0x00000002ae2585a0                Udp4Protocol
+                0x00000002ae2585b0                Udp4ServiceBindingProtocol
+                0x00000002ae2585c0                Ip4Protocol
+                0x00000002ae2585d0                Ip4ServiceBindingProtocol
+                0x00000002ae2585e0                EfiDtbTableGuid
+                0x00000002ae2585f0                SalSystemTableGuid
+                0x00000002ae258600                SMBIOS3TableGuid
+                0x00000002ae258610                SMBIOSTableGuid
+                0x00000002ae258620                AcpiTableGuid
+                0x00000002ae258630                MpsTableGuid
+                0x00000002ae258640                UnknownDevice
+                0x00000002ae258650                EfiPartTypeLegacyMbrGuid
+                0x00000002ae258660                EfiPartTypeSystemPartitionGuid
+                0x00000002ae258670                gEfiVTUTF8Guid
+                0x00000002ae258680                gEfiVT100PlusGuid
+                0x00000002ae258690                gEfiVT100Guid
+                0x00000002ae2586a0                gEfiPcAnsiGuid
+                0x00000002ae2586b0                AdapterDebugProtocol
+                0x00000002ae2586c0                gEfiEdidOverrideProtocolGuid
+                0x00000002ae2586d0                gEfiEdidActiveProtocolGuid
+                0x00000002ae2586e0                gEfiEdidDiscoveredProtocolGuid
+                0x00000002ae2586f0                gEfiGraphicsOutputProtocolGuid
+                0x00000002ae258700                TextInSpliterProtocol
+                0x00000002ae258710                ErrorOutSpliterProtocol
+                0x00000002ae258720                TextOutSpliterProtocol
+                0x00000002ae258730                VgaClassProtocol
+                0x00000002ae258740                LegacyBootProtocol
+                0x00000002ae258750                VariableStoreProtocol
+                0x00000002ae258760                InternalShellProtocol
+                0x00000002ae258770                gEfiFileSystemVolumeLabelInfoIdGuid
+                0x00000002ae258780                gEfiFileSystemInfoGuid
+                0x00000002ae258790                gEfiFileInfoGuid
+                0x00000002ae2587a0                gEfiEbcProtocolGuid
+                0x00000002ae2587b0                gEfiDriverFamilyOverrideProtocolGuid
+                0x00000002ae2587c0                gEfiBusSpecificDriverOverrideProtocolGuid
+                0x00000002ae2587d0                gEfiPlatformDriverOverrideProtocolGuid
+                0x00000002ae2587e0                gEfiHashProtocolGuid
+                0x00000002ae2587f0                gEfiComponentName2ProtocolGuid
+                0x00000002ae258800                gEfiComponentNameProtocolGuid
+                0x00000002ae258810                gEfiDriverBindingProtocolGuid
+                0x00000002ae258820                gEfiPciRootBridgeIoProtocolGuid
+                0x00000002ae258830                gEfiPciIoProtocolGuid
+                0x00000002ae258840                gEFiUiInterfaceProtocolGuid
+                0x00000002ae258850                gEfiNetworkInterfaceIdentifierProtocolGuid
+                0x00000002ae258860                gEfiPxeBaseCodeCallbackProtocolGuid
+                0x00000002ae258870                gEfiPxeBaseCodeProtocolGuid
+                0x00000002ae258880                gEfiSimpleNetworkProtocolGuid
+                0x00000002ae258890                gEfiSerialIoProtocolGuid
+                0x00000002ae2588a0                gEfiUnicodeCollationProtocolGuid
+                0x00000002ae2588b0                gEfiDeviceIoProtocolGuid
+                0x00000002ae2588c0                gEfiLoadFileProtocolGuid
+                0x00000002ae2588d0                gEfiSimpleFileSystemProtocolGuid
+                0x00000002ae2588e0                gEfiDiskIo2ProtocolGuid
+                0x00000002ae2588f0                gEfiDiskIoProtocolGuid
+                0x00000002ae258900                gEfiBlockIo2ProtocolGuid
+                0x00000002ae258910                gEfiBlockIoProtocolGuid
+                0x00000002ae258920                gEfiSimpleTextOutProtocolGuid
+                0x00000002ae258930                gEfiSimpleTextInProtocolGuid
+                0x00000002ae258940                gEfiLoadedImageProtocolGuid
+                0x00000002ae258950                gEfiDevicePathUtilitiesProtocolGuid
+                0x00000002ae258960                gEfiDevicePathFromTextProtocolGuid
+                0x00000002ae258970                gEfiDevicePathToTextProtocolGuid
+                0x00000002ae258980                gEfiDevicePathProtocolGuid
+                0x00000002ae258990                gEfiGlobalVariableGuid
+                0x00000002ae2589a0                EndInstanceDevicePath
+                0x00000002ae2589a4                EndDevicePath
+                0x00000002ae2589a8                RootDevicePath
+                0x00000002ae2589b0                UnicodeInterface
+                0x00000002ae2589c0                LibStubUnicodeInterface
+                0x00000002ae2589f8                PoolAllocationType
+ .data          0x00000002ae258a00        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/debug.o
+ .data          0x00000002ae258a00      0x1c0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/dpath.o
+                0x00000002ae258a00                DevPathTable
+ .data          0x00000002ae258bc0      0x2a0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/error.o
+                0x00000002ae258bc0                ErrorCodeTable
+ .data          0x00000002ae258e60        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/event.o
+ .data          0x00000002ae258e60        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/exit.o
+ .data          0x00000002ae258e60       0x50 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/guid.o
+ .data          0x00000002ae258eb0        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/hand.o
+ .data          0x00000002ae258eb0        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/hw.o
+ .data          0x00000002ae258eb0        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+ .data          0x00000002ae258eb0        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/lock.o
+ .data          0x00000002ae258eb0        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/callwrap.o
+ .data          0x00000002ae258eb0        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/efi_stub.o
+ .data          0x00000002ae258eb0        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/initplat.o
+ .data          0x00000002ae258eb0        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/math.o
+ .data          0x00000002ae258eb0        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/setjmp.o
+ .data          0x00000002ae258eb0        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/efirtlib.o
+ .data          0x00000002ae258eb0       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtdata.o
+                0x00000002ae258eb0                EFIDebug
+ .data          0x00000002ae258ec0        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtlock.o
+ .data          0x00000002ae258ec0        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtstr.o
+ .data          0x00000002ae258ec0        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/vm.o
+ .data          0x00000002ae258ec0       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/bootx64.o
+ *(.data2)
+ *(SORT_BY_NAME(.data$*))
+ *(.jcr)
+                0x00000002ae258ed0                __data_end__ = .
+ *(.data_cygwin_nocopy)
+
+.rdata          0x00000002ae259000     0x1e00
+ *(.rdata)
+ .rdata         0x00000002ae259000       0x20 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/misc.o
+ .rdata         0x00000002ae259020      0x230 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/print.o
+ .rdata         0x00000002ae259250       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/cmdline.o
+ .rdata         0x00000002ae259260       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/console.o
+ .rdata         0x00000002ae259270       0x20 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/debug.o
+ .rdata         0x00000002ae259290      0x640 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/dpath.o
+ .rdata         0x00000002ae2598d0      0x520 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/error.o
+ *fill*         0x00000002ae259df0       0x10 
+ .rdata         0x00000002ae259e00      0x5c0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/guid.o
+ .rdata         0x00000002ae25a3c0       0x20 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+ .rdata         0x00000002ae25a3e0      0x170 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/bootx64.o
+ *(SORT_BY_NAME(.rdata$*))
+ .rdata$.refptr.BS
+                0x00000002ae25a550       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/misc.o
+                0x00000002ae25a550                .refptr.BS
+ .rdata$.refptr.EFIDebug
+                0x00000002ae25a560       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/print.o
+                0x00000002ae25a560                .refptr.EFIDebug
+ .rdata$.refptr.EndDevicePath
+                0x00000002ae25a570       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/dpath.o
+                0x00000002ae25a570                .refptr.EndDevicePath
+ .rdata$.refptr.EndInstanceDevicePath
+                0x00000002ae25a580       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/dpath.o
+                0x00000002ae25a580                .refptr.EndInstanceDevicePath
+ .rdata$.refptr.LibFwInstance
+                0x00000002ae25a590       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+                0x00000002ae25a590                .refptr.LibFwInstance
+ .rdata$.refptr.LibImageHandle
+                0x00000002ae25a5a0       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/exit.o
+                0x00000002ae25a5a0                .refptr.LibImageHandle
+ .rdata$.refptr.LibInitialized
+                0x00000002ae25a5b0       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+                0x00000002ae25a5b0                .refptr.LibInitialized
+ .rdata$.refptr.LibRuntimeDebugOut
+                0x00000002ae25a5c0       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/print.o
+                0x00000002ae25a5c0                .refptr.LibRuntimeDebugOut
+ .rdata$.refptr.LibRuntimeRaiseTPL
+                0x00000002ae25a5d0       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtlock.o
+                0x00000002ae25a5d0                .refptr.LibRuntimeRaiseTPL
+ .rdata$.refptr.LibRuntimeRestoreTPL
+                0x00000002ae25a5e0       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtlock.o
+                0x00000002ae25a5e0                .refptr.LibRuntimeRestoreTPL
+ .rdata$.refptr.LibStubUnicodeInterface
+                0x00000002ae25a5f0       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/str.o
+                0x00000002ae25a5f0                .refptr.LibStubUnicodeInterface
+ .rdata$.refptr.PoolAllocationType
+                0x00000002ae25a600       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/misc.o
+                0x00000002ae25a600                .refptr.PoolAllocationType
+ .rdata$.refptr.RT
+                0x00000002ae25a610       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/misc.o
+                0x00000002ae25a610                .refptr.RT
+ .rdata$.refptr.SMBIOSTableGuid
+                0x00000002ae25a620       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/smbios.o
+                0x00000002ae25a620                .refptr.SMBIOSTableGuid
+ .rdata$.refptr.ST
+                0x00000002ae25a630       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/misc.o
+                0x00000002ae25a630                .refptr.ST
+ .rdata$.refptr.ShellParametersProtocolGuid
+                0x00000002ae25a640       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/cmdline.o
+                0x00000002ae25a640                .refptr.ShellParametersProtocolGuid
+ .rdata$.refptr.UnicodeInterface
+                0x00000002ae25a650       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/str.o
+                0x00000002ae25a650                .refptr.UnicodeInterface
+ .rdata$.refptr.UnknownDevice
+                0x00000002ae25a660       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/dpath.o
+                0x00000002ae25a660                .refptr.UnknownDevice
+ .rdata$.refptr.gEFiUiInterfaceProtocolGuid
+                0x00000002ae25a670       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/misc.o
+                0x00000002ae25a670                .refptr.gEFiUiInterfaceProtocolGuid
+ .rdata$.refptr.gEfiBlockIoProtocolGuid
+                0x00000002ae25a680       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/hand.o
+                0x00000002ae25a680                .refptr.gEfiBlockIoProtocolGuid
+ .rdata$.refptr.gEfiDeviceIoProtocolGuid
+                0x00000002ae25a690       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/hw.o
+                0x00000002ae25a690                .refptr.gEfiDeviceIoProtocolGuid
+ .rdata$.refptr.gEfiDevicePathProtocolGuid
+                0x00000002ae25a6a0       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/dpath.o
+                0x00000002ae25a6a0                .refptr.gEfiDevicePathProtocolGuid
+ .rdata$.refptr.gEfiFileInfoGuid
+                0x00000002ae25a6b0       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/hand.o
+                0x00000002ae25a6b0                .refptr.gEfiFileInfoGuid
+ .rdata$.refptr.gEfiFileSystemInfoGuid
+                0x00000002ae25a6c0       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/hand.o
+                0x00000002ae25a6c0                .refptr.gEfiFileSystemInfoGuid
+ .rdata$.refptr.gEfiFileSystemVolumeLabelInfoIdGuid
+                0x00000002ae25a6d0       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/hand.o
+                0x00000002ae25a6d0                .refptr.gEfiFileSystemVolumeLabelInfoIdGuid
+ .rdata$.refptr.gEfiGlobalVariableGuid
+                0x00000002ae25a6e0       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/misc.o
+                0x00000002ae25a6e0                .refptr.gEfiGlobalVariableGuid
+ .rdata$.refptr.gEfiLoadFileProtocolGuid
+                0x00000002ae25a6f0       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/sread.o
+                0x00000002ae25a6f0                .refptr.gEfiLoadFileProtocolGuid
+ .rdata$.refptr.gEfiLoadedImageProtocolGuid
+                0x00000002ae25a700       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/cmdline.o
+                0x00000002ae25a700                .refptr.gEfiLoadedImageProtocolGuid
+ .rdata$.refptr.gEfiSimpleFileSystemProtocolGuid
+                0x00000002ae25a710       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/sread.o
+                0x00000002ae25a710                .refptr.gEfiSimpleFileSystemProtocolGuid
+ .rdata$.refptr.gEfiUnicodeCollationProtocolGuid
+                0x00000002ae25a720       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+                0x00000002ae25a720                .refptr.gEfiUnicodeCollationProtocolGuid
+ .rdata$zzz     0x00000002ae25a730       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/misc.o
+ .rdata$zzz     0x00000002ae25a760       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/print.o
+ .rdata$zzz     0x00000002ae25a790       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/smbios.o
+ .rdata$zzz     0x00000002ae25a7c0       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/sread.o
+ .rdata$zzz     0x00000002ae25a7f0       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/str.o
+ .rdata$zzz     0x00000002ae25a820       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/boxdraw.o
+ .rdata$zzz     0x00000002ae25a850       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/cmdline.o
+ .rdata$zzz     0x00000002ae25a880       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/console.o
+ .rdata$zzz     0x00000002ae25a8b0       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/crc.o
+ .rdata$zzz     0x00000002ae25a8e0       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/data.o
+ .rdata$zzz     0x00000002ae25a910       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/debug.o
+ .rdata$zzz     0x00000002ae25a940       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/dpath.o
+ .rdata$zzz     0x00000002ae25a970       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/error.o
+ .rdata$zzz     0x00000002ae25a9a0       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/event.o
+ .rdata$zzz     0x00000002ae25a9d0       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/exit.o
+ .rdata$zzz     0x00000002ae25aa00       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/guid.o
+ .rdata$zzz     0x00000002ae25aa30       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/hand.o
+ .rdata$zzz     0x00000002ae25aa60       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/hw.o
+ .rdata$zzz     0x00000002ae25aa90       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+ .rdata$zzz     0x00000002ae25aac0       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/lock.o
+ .rdata$zzz     0x00000002ae25aaf0       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/callwrap.o
+ .rdata$zzz     0x00000002ae25ab20       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/initplat.o
+ .rdata$zzz     0x00000002ae25ab50       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/math.o
+ .rdata$zzz     0x00000002ae25ab80       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/efirtlib.o
+ .rdata$zzz     0x00000002ae25abb0       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtdata.o
+ .rdata$zzz     0x00000002ae25abe0       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtlock.o
+ .rdata$zzz     0x00000002ae25ac10       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtstr.o
+ .rdata$zzz     0x00000002ae25ac40       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/vm.o
+ .rdata$zzz     0x00000002ae25ac70       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/bootx64.o
+                0x00000002ae25aca0                . = ALIGN (0x4)
+                0x00000002ae25aca0                __rt_psrelocs_start = .
+ *(.rdata_runtime_pseudo_reloc)
+                0x00000002ae25aca0                __rt_psrelocs_end = .
+                0x0000000000000000                __rt_psrelocs_size = (__rt_psrelocs_end - __rt_psrelocs_start)
+                0x00000002ae25aca0                ___RUNTIME_PSEUDO_RELOC_LIST_END__ = .
+                0x00000002ae25aca0                __RUNTIME_PSEUDO_RELOC_LIST_END__ = .
+                0x00000002ae25aca0                ___RUNTIME_PSEUDO_RELOC_LIST__ = (. - __rt_psrelocs_size)
+                0x00000002ae25aca0                __RUNTIME_PSEUDO_RELOC_LIST__ = (. - __rt_psrelocs_size)
+
+.eh_frame
+ *(.eh_frame*)
+
+.pdata          0x00000002ae25b000      0xc00
+ *(.pdata*)
+ .pdata         0x00000002ae25b000       0xfc C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/misc.o
+ .pdata         0x00000002ae25b0fc      0x168 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/print.o
+ .pdata         0x00000002ae25b264       0x18 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/smbios.o
+ .pdata         0x00000002ae25b27c       0x24 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/sread.o
+ .pdata         0x00000002ae25b2a0      0x12c C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/str.o
+ .pdata         0x00000002ae25b3cc       0x24 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/boxdraw.o
+ .pdata         0x00000002ae25b3f0       0x18 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/cmdline.o
+ .pdata         0x00000002ae25b408       0x24 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/console.o
+ .pdata         0x00000002ae25b42c       0x3c C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/crc.o
+ .pdata         0x00000002ae25b468        0xc C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/debug.o
+ .pdata         0x00000002ae25b474      0x210 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/dpath.o
+ .pdata         0x00000002ae25b684        0xc C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/error.o
+ .pdata         0x00000002ae25b690       0x24 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/event.o
+ .pdata         0x00000002ae25b6b4        0xc C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/exit.o
+ .pdata         0x00000002ae25b6c0       0x24 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/guid.o
+ .pdata         0x00000002ae25b6e4       0x78 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/hand.o
+ .pdata         0x00000002ae25b75c       0x3c C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/hw.o
+ .pdata         0x00000002ae25b798       0x3c C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+ .pdata         0x00000002ae25b7d4       0x24 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/lock.o
+ .pdata         0x00000002ae25b7f8        0xc C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/initplat.o
+ .pdata         0x00000002ae25b804       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/math.o
+ .pdata         0x00000002ae25b834       0x3c C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/efirtlib.o
+ .pdata         0x00000002ae25b870       0x18 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtlock.o
+ .pdata         0x00000002ae25b888       0x90 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtstr.o
+ .pdata         0x00000002ae25b918       0x18 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/vm.o
+ .pdata         0x00000002ae25b930       0xf0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/bootx64.o
+
+.xdata          0x00000002ae25c000      0xa00
+ *(.xdata*)
+ .xdata         0x00000002ae25c000       0xe0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/misc.o
+ .xdata         0x00000002ae25c0e0      0x150 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/print.o
+ .xdata         0x00000002ae25c230       0x14 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/smbios.o
+ .xdata         0x00000002ae25c244       0x2c C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/sread.o
+ .xdata         0x00000002ae25c270       0xb4 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/str.o
+ .xdata         0x00000002ae25c324        0xc C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/boxdraw.o
+ .xdata         0x00000002ae25c330       0x18 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/cmdline.o
+ .xdata         0x00000002ae25c348       0x20 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/console.o
+ .xdata         0x00000002ae25c368       0x28 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/crc.o
+ .xdata         0x00000002ae25c390        0x8 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/debug.o
+ .xdata         0x00000002ae25c398      0x1d4 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/dpath.o
+ .xdata         0x00000002ae25c56c        0x8 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/error.o
+ .xdata         0x00000002ae25c574       0x28 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/event.o
+ .xdata         0x00000002ae25c59c        0x8 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/exit.o
+ .xdata         0x00000002ae25c5a4       0x18 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/guid.o
+ .xdata         0x00000002ae25c5bc       0x80 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/hand.o
+ .xdata         0x00000002ae25c63c       0x28 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/hw.o
+ .xdata         0x00000002ae25c664       0x2c C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+ .xdata         0x00000002ae25c690       0x14 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/lock.o
+ .xdata         0x00000002ae25c6a4        0x4 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/initplat.o
+ .xdata         0x00000002ae25c6a8       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/math.o
+ .xdata         0x00000002ae25c6b8       0x14 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/efirtlib.o
+ .xdata         0x00000002ae25c6cc       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtlock.o
+ .xdata         0x00000002ae25c6dc       0x5c C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtstr.o
+ .xdata         0x00000002ae25c738       0x18 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/vm.o
+ .xdata         0x00000002ae25c750      0x144 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/bootx64.o
+
+.bss            0x00000002ae25d000      0x990
+                0x00000002ae25d000                __bss_start__ = .
+ *(.bss)
+ .bss           0x00000002ae25d000        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/misc.o
+ .bss           0x00000002ae25d000        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/print.o
+ .bss           0x00000002ae25d000        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/smbios.o
+ .bss           0x00000002ae25d000        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/sread.o
+ .bss           0x00000002ae25d000        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/str.o
+ .bss           0x00000002ae25d000        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/boxdraw.o
+ .bss           0x00000002ae25d000      0x920 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/cmdline.o
+ .bss           0x00000002ae25d920        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/console.o
+ .bss           0x00000002ae25d920        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/crc.o
+ .bss           0x00000002ae25d920       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/data.o
+                0x00000002ae25d920                NullGuid
+                0x00000002ae25d930                BS
+                0x00000002ae25d938                ST
+                0x00000002ae25d940                LibImageHandle
+                0x00000002ae25d948                LibInitialized
+ .bss           0x00000002ae25d950        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/debug.o
+ .bss           0x00000002ae25d950        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/dpath.o
+ .bss           0x00000002ae25d950        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/error.o
+ .bss           0x00000002ae25d950        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/event.o
+ .bss           0x00000002ae25d950        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/exit.o
+ .bss           0x00000002ae25d950       0x10 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/guid.o
+                0x00000002ae25d950                GuidList
+ .bss           0x00000002ae25d960        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/hand.o
+ .bss           0x00000002ae25d960        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/hw.o
+ .bss           0x00000002ae25d960        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/init.o
+ .bss           0x00000002ae25d960        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/lock.o
+ .bss           0x00000002ae25d960        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/callwrap.o
+ .bss           0x00000002ae25d960        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/efi_stub.o
+ .bss           0x00000002ae25d960        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/initplat.o
+ .bss           0x00000002ae25d960        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/math.o
+ .bss           0x00000002ae25d960        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/x86_64/setjmp.o
+ .bss           0x00000002ae25d960        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/efirtlib.o
+ .bss           0x00000002ae25d960       0x30 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtdata.o
+                0x00000002ae25d960                LibRuntimeRestoreTPL
+                0x00000002ae25d968                LibRuntimeRaiseTPL
+                0x00000002ae25d970                LibRuntimeDebugOut
+                0x00000002ae25d978                LibFwInstance
+                0x00000002ae25d980                RT
+ .bss           0x00000002ae25d990        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtlock.o
+ .bss           0x00000002ae25d990        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/rtstr.o
+ .bss           0x00000002ae25d990        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/gnu-efi-3.0.18/lib/runtime/vm.o
+ .bss           0x00000002ae25d990        0x0 C:/Users/victim/Documents/GitHub/HaikuRansomware/UEFI/Backend/bootx64.o
+ *(COMMON)
+                0x00000002ae25d990                __bss_end__ = .
+
+.edata          0x00000002ae25e000     0x2000
+ *(.edata)
+ .edata         0x00000002ae25e000     0x1e8f dll stuff
+
+/DISCARD/
+ *(.debug$S)
+ *(.debug$T)
+ *(.debug$F)
+ *(.drectve)
+ *(.note.GNU-stack)
+ *(.gnu.lto_*)
+
+.idata          0x00000002ae260000      0x200
+ SORT_BY_NAME(*)(.idata$2)
+ SORT_BY_NAME(*)(.idata$3)
+                0x00000002ae260000        0x4 LONG 0x0
+                0x00000002ae260004        0x4 LONG 0x0
+                0x00000002ae260008        0x4 LONG 0x0
+                0x00000002ae26000c        0x4 LONG 0x0
+                0x00000002ae260010        0x4 LONG 0x0
+                0x00000002ae260018                . = ALIGN (0x8)
+ *fill*         0x00000002ae260014        0x4 
+ SORT_BY_NAME(*)(.idata$4)
+                0x00000002ae260018                __IAT_start__ = .
+ SORT_BY_NAME(*)(.idata$5)
+                0x00000002ae260018                __IAT_end__ = .
+ SORT_BY_NAME(*)(.idata$6)
+ SORT_BY_NAME(*)(.idata$7)
+
+.CRT            0x00000002ae261000        0x0
+                0x00000002ae261000                ___crt_xc_start__ = .
+ *(SORT_BY_NAME(.CRT$XC*))
+                0x00000002ae261000                ___crt_xc_end__ = .
+                0x00000002ae261000                ___crt_xi_start__ = .
+ *(SORT_BY_NAME(.CRT$XI*))
+                0x00000002ae261000                ___crt_xi_end__ = .
+                0x00000002ae261000                ___crt_xl_start__ = .
+ *(SORT_BY_NAME(.CRT$XL*))
+                0x00000002ae261000                ___crt_xp_start__ = .
+ *(SORT_BY_NAME(.CRT$XP*))
+                0x00000002ae261000                ___crt_xp_end__ = .
+                0x00000002ae261000                ___crt_xt_start__ = .
+ *(SORT_BY_NAME(.CRT$XT*))
+                0x00000002ae261000                ___crt_xt_end__ = .
+
+.tls            0x00000002ae261000        0x0
+                0x00000002ae261000                ___tls_start__ = .
+ *(.tls$AAA)
+ *(.tls)
+ *(.tls$)
+ *(SORT_BY_NAME(.tls$*))
+ *(.tls$ZZZ)
+                0x00000002ae261000                ___tls_end__ = .
+
+.endjunk        0x00000002ae261000        0x0
+                [!provide]                        PROVIDE (end = .)
+                [!provide]                        PROVIDE (_end = .)
+                0x00000002ae261000                __end__ = .
+
+.rsrc
+ *(.rsrc)
+ *(.rsrc$*)
+
+.reloc          0x00000002ae261000      0x200
+ *(.reloc)
+ .reloc         0x00000002ae261000      0x18c dll stuff
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.zdebug_aranges
+ *(.zdebug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.zdebug_pubnames
+ *(.zdebug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.zdebug_info
+ *(.zdebug_info .zdebug.gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.zdebug_abbrev
+ *(.zdebug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.zdebug_line
+ *(.zdebug_line)
+
+.debug_frame
+ *(.debug_frame*)
+
+.zdebug_frame
+ *(.zdebug_frame*)
+
+.debug_str
+ *(.debug_str)
+
+.zdebug_str
+ *(.zdebug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.zdebug_loc
+ *(.zdebug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.zdebug_macinfo
+ *(.zdebug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.zdebug_weaknames
+ *(.zdebug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.zdebug_funcnames
+ *(.zdebug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.zdebug_typenames
+ *(.zdebug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.zdebug_varnames
+ *(.zdebug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.zdebug_pubtypes
+ *(.zdebug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.zdebug_ranges
+ *(.zdebug_ranges)
+
+.debug_types
+ *(.debug_types .gnu.linkonce.wt.*)
+
+.zdebug_types
+ *(.zdebug_types .gnu.linkonce.wt.*)
+
+.debug_addr
+ *(.debug_addr)
+
+.zdebug_addr
+ *(.zdebug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.zdebug_line_str
+ *(.zdebug_line_str)
+
+.debug_loclists
+ *(.debug_loclists)
+
+.zdebug_loclists
+ *(.zdebug_loclists)
+
+.debug_macro
+ *(.debug_macro)
+
+.zdebug_macro
+ *(.zdebug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.zdebug_names
+ *(.zdebug_names)
+
+.debug_rnglists
+ *(.debug_rnglists)
+
+.zdebug_rnglists
+ *(.zdebug_rnglists)
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.zdebug_str_offsets
+ *(.zdebug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.debug_gdb_scripts
+ *(.debug_gdb_scripts)
+
+.zdebug_gdb_scripts
+ *(.zdebug_gdb_scripts)
+OUTPUT(bootx64.efi pei-x86-64)
+LOAD dll stuff

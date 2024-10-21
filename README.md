@@ -1,3 +1,4 @@
+# DAY 1
 # HaikuRansomware
 
 **World's First Haiku Ransomware/Malware**
@@ -36,4 +37,15 @@ The lyrics in the note are:
                 << "1:42\n♪ Baba heykır, pro heykır, babapro heykır, Utkudoruk ♪\n"
                 << "\nVideo Reference: https://www.youtube.com/watch?v=y4SYSX-Xgfk\n";
 
-Author: Emirhan Ucan, Utku Doruk Bayraktar (this guy is meme) Project Name: HaikuRansomware Version: 0.1
+Author: Emirhan Ucan, Utku Doruk Bayraktar (this guy is meme) Project Name: HaikuRansomware Version: 0.2
+
+# DAY 2
+# UPDATE
+MBR and UEFI payloads added
+
+# References
+Learn UEFI: https://github.com/WobbyChip/Delphi/tree/master/MBR%20UEFI%20-%20Note%20Builder
+Learn MBR: https://www.youtube.com/watch?v=6hN3q62ttes
+
+# Fun Fact:
+This ransomware made in two days.
