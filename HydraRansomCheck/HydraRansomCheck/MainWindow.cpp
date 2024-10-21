@@ -14,6 +14,7 @@
 #include <filesystem>
 #include <vector>
 #include <algorithm>
+#include <chrono>     // For std::chrono
 
 #undef B_TRANSLATION_CONTEXT
 #define B_TRANSLATION_CONTEXT "Window"
@@ -116,12 +117,25 @@ void MainWindow::MonitorDesktop()
         printf("Error finding desktop directory\n");
         return;
     }
-    
+
     std::string desktopDir = desktopPath.Path();
 
-    // Monitor files in the Desktop directory
-    for (const auto& entry : fs::directory_iterator(desktopDir)) {
-        if (entry.is_regular_file()) {
+    // Continuously monitor the Desktop directory and its subdirectories
+    while (true) {
+        // Call the recursive function to check files
+        CheckFilesInDirectory(desktopDir);
+    }
+}
+
+void MainWindow::CheckFilesInDirectory(const std::string& directory)
+{
+    // Monitor files in the specified directory
+    for (const auto& entry : std::filesystem::directory_iterator(directory)) {
+        if (entry.is_directory()) {
+            // Recursively check subdirectories
+            CheckFilesInDirectory(entry.path().string());
+        }
+        else if (entry.is_regular_file()) {
             std::string filename = entry.path().filename().string();
             std::string extension = entry.path().extension().string();
             printf("Found file: %s with extension: %s\n", filename.c_str(), extension.c_str());
