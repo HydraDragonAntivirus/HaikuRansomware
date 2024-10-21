@@ -13,8 +13,8 @@ resource app_version {
 
 	internal = 0,
 
-	short_info = "A short description",
-	long_info  = "A little bit longer description of the app."
+	short_info = "Ransomware infection detection",
+	long_info  = "A program to detect and prevent ransomware infection through file extensions"
 };
 
 resource vector_icon {

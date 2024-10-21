@@ -7,7 +7,7 @@
 #undef B_TRANSLATION_CONTEXT
 #define B_TRANSLATION_CONTEXT "Application"
 
-const char* kApplicationSignature = "application/x-vnd.MyName-MyApp";
+const char* kApplicationSignature = "application/x-vnd.EmirhanUcan-HydraRansomCheck";
 
 
 App::App()
@@ -29,7 +29,7 @@ App::AboutRequested()
 {
 	BAboutWindow* about
 		= new BAboutWindow(B_TRANSLATE_SYSTEM_NAME("HydraRansomCheck"), kApplicationSignature);
-	about->AddDescription(B_TRANSLATE("Ransomware Infection Detect And Prevent"));
+	about->AddDescription(B_TRANSLATE("Detect and prevent ransomware detection"));
 	about->AddCopyright(2024, "Emirhan Ucan");
 	about->Show();
 }
