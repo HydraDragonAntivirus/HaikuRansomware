@@ -112,20 +112,19 @@ void MainWindow::MonitorDesktop()
 {
     // Get the Desktop path
     BPath desktopPath;
-    status_t status = find_directory(B_DESKTOP_DIRECTORY, &desktopPath);
-    if (status != B_OK) {
-        printf("Error finding desktop directory: %s\n", strerror(status));
+    if (find_directory(B_DESKTOP_DIRECTORY, &desktopPath) != B_OK) {
+        printf("Error finding desktop directory\n");
         return;
     }
+    
     std::string desktopDir = desktopPath.Path();
-
-    printf("Monitoring Desktop directory: %s\n", desktopDir.c_str());
 
     // Monitor files in the Desktop directory
     for (const auto& entry : fs::directory_iterator(desktopDir)) {
         if (entry.is_regular_file()) {
             std::string filename = entry.path().filename().string();
             std::string extension = entry.path().extension().string();
+            printf("Found file: %s with extension: %s\n", filename.c_str(), extension.c_str());
 
             if (filename.find('.') != std::string::npos) {
                 std::vector<std::string> parts;
