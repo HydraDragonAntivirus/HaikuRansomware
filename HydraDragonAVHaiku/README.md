@@ -1,1 +1,0 @@
-Still work on progress. I stopped developing until I make non skid Haiku malware.
