@@ -48,4 +48,9 @@ Learn UEFI: https://github.com/WobbyChip/Delphi/tree/master/MBR%20UEFI%20-%20Not
 Learn MBR: https://www.youtube.com/watch?v=6hN3q62ttes
 
 # Fun Fact:
-This ransomware made in two days.
+This ransomware made in two days. 
+
+## UPDATE It Seems Like Ransomware Working But MBR/UEFI not and you need eject your Haiku ISO
+![Encryption Process](assets/v2.png)
+![Encryption Process Part2](assets/v2part2.png)
+![Encryption Process Part3](assets/v2part3.png)
