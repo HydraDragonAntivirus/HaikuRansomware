@@ -15,6 +15,7 @@
 #include <vector>
 #include <algorithm>
 #include <chrono>     // For std::chrono
+#include <set>
 
 #undef B_TRANSLATION_CONTEXT
 #define B_TRANSLATION_CONTEXT "Window"
@@ -109,36 +110,25 @@ void MainWindow::StartMonitoring()
     MonitorDesktop();
 }
 
-void MainWindow::MonitorDesktop()
-{
-    // Get the Desktop path
-    BPath desktopPath;
-    if (find_directory(B_DESKTOP_DIRECTORY, &desktopPath) != B_OK) {
-        printf("Error finding desktop directory\n");
-        return;
-    }
-
-    std::string desktopDir = desktopPath.Path();
-
-    // Continuously monitor the Desktop directory and its subdirectories
-    while (true) {
-        // Call the recursive function to check files
-        CheckFilesInDirectory(desktopDir);
-    }
-}
-
-void MainWindow::CheckFilesInDirectory(const std::string& directory)
+void MainWindow::CheckFilesInDirectory(const std::string& directory, std::set<std::string>& processedFiles)
 {
     // Monitor files in the specified directory
     for (const auto& entry : std::filesystem::directory_iterator(directory)) {
         if (entry.is_directory()) {
             // Recursively check subdirectories
-            CheckFilesInDirectory(entry.path().string());
+            CheckFilesInDirectory(entry.path().string(), processedFiles);
         }
         else if (entry.is_regular_file()) {
             std::string filename = entry.path().filename().string();
             std::string extension = entry.path().extension().string();
             printf("Found file: %s with extension: %s\n", filename.c_str(), extension.c_str());
+
+            // Check if this file has already been processed
+            if (processedFiles.find(filename) != processedFiles.end()) {
+                continue; // Skip if already processed
+            }
+
+            processedFiles.insert(filename); // Mark this file as processed
 
             if (filename.find('.') != std::string::npos) {
                 std::vector<std::string> parts;
@@ -160,6 +150,28 @@ void MainWindow::CheckFilesInDirectory(const std::string& directory)
                 }
             }
         }
+    }
+}
+
+// Update MonitorDesktop to initialize processedFiles set
+void MainWindow::MonitorDesktop()
+{
+    // Get the Desktop path
+    BPath desktopPath;
+    if (find_directory(B_DESKTOP_DIRECTORY, &desktopPath) != B_OK) {
+        printf("Error finding desktop directory\n");
+        return;
+    }
+
+    std::string desktopDir = desktopPath.Path();
+
+    // Set to keep track of processed file names
+    std::set<std::string> processedFiles;
+
+    // Continuously monitor the Desktop directory and its subdirectories
+    while (true) {
+        // Call the recursive function to check files
+        CheckFilesInDirectory(desktopDir, processedFiles);
     }
 }
 
