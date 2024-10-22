@@ -136,19 +136,21 @@ void MainWindow::CheckFilesInDirectory(const std::string& directory, std::set<st
                 // Recursively check subdirectories
                 CheckFilesInDirectory(entry.path().string(), processedFiles);
             } else if (entry.is_regular_file()) {
-                std::string fullPath = entry.path().string();
+                std::string filename = entry.path().filename().string(); // Only get the filename
+                std::string fullPath = entry.path().string(); // Full path for length check
+
                 if (fullPath.length() > MAX_PATH_LENGTH) {
                     printf("File path too long: %s, skipping...\n", fullPath.c_str());
                     continue; // Skip this file
                 }
 
-                std::string filename = entry.path().filename().string();
                 if (processedFiles.find(filename) != processedFiles.end()) {
                     continue; // Skip if already processed
                 }
 
                 processedFiles.insert(filename); // Mark this file as processed
 
+                // Process the filename for extensions
                 if (filename.find('.') != std::string::npos) {
                     std::vector<std::string> parts;
                     size_t pos = 0;
