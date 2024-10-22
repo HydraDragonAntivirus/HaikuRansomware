@@ -17,6 +17,7 @@
 #include <chrono>     // For std::chrono
 #include <set>
 #include <fstream> // For file handling
+#include <thread>
 
 #undef B_TRANSLATION_CONTEXT
 #define B_TRANSLATION_CONTEXT "Window"
@@ -40,6 +41,7 @@ MainWindow::MainWindow()
 
     BLayoutBuilder::Group<>(this, B_VERTICAL, 0)
         .Add(menuBar)
+        .Add(installButton) // Add the button to the layout
         .AddGlue()
         .End();
 
@@ -72,10 +74,20 @@ void MainWindow::MessageReceived(BMessage* message)
         PostMessage(B_QUIT_REQUESTED);
         break;
 
+    case kMsgInstallClamAV: // Handle ClamAV installation
+        InstallClamAV();
+        break;
+
     default:
         BWindow::MessageReceived(message);
         break;
     }
+}
+
+void MainWindow::InstallClamAV()
+{
+    printf("Installing ClamAV...\n");
+    system("pkgman install -y clamav"); // Execute the install command
 }
 
 BMenuBar* MainWindow::_BuildMenu()
@@ -109,7 +121,43 @@ BMenuBar* MainWindow::_BuildMenu()
 void MainWindow::StartMonitoring()
 {
     printf("Monitoring started\n");
-    MonitorDesktop();
+    std::thread monitoringThread(&MainWindow::MonitorDesktop, this);
+    monitoringThread.detach(); // Detach the thread to run independently
+}
+
+BMenuBar* MainWindow::_BuildMenu()
+{
+    BMenuBar* menuBar = new BMenuBar("menubar");
+    BMenu* menu;
+    BMenuItem* item;
+
+    // 'Monitor' Menu
+    menu = new BMenu(B_TRANSLATE("Monitor"));
+
+    item = new BMenuItem(B_TRANSLATE("Start Monitoring"), new BMessage(kMsgStartMonitor), 'S');
+    menu->AddItem(item);
+
+    item = new BMenuItem(B_TRANSLATE("Quit"), new BMessage(kMsgQuitApp), 'Q');
+    menu->AddItem(item);
+
+    menuBar->AddItem(menu);
+
+    // 'Installation' Menu
+    menu = new BMenu(B_TRANSLATE("Installation")); // New menu for installations
+    item = new BMenuItem(B_TRANSLATE("Install ClamAV"), new BMessage(kMsgInstallClamAV));
+    menu->AddItem(item);
+
+    menuBar->AddItem(menu);
+
+    // 'Help' Menu
+    menu = new BMenu(B_TRANSLATE("Help"));
+    item = new BMenuItem(B_TRANSLATE("About" B_UTF8_ELLIPSIS), new BMessage(B_ABOUT_REQUESTED));
+    item->SetTarget(be_app);
+    menu->AddItem(item);
+
+    menuBar->AddItem(menu);
+
+    return menuBar;
 }
 
 void MainWindow::CheckFilesInDirectory(const std::string& directory, std::set<std::string>& processedFiles)

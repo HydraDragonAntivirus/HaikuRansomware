@@ -20,6 +20,8 @@ public:
     void StartMonitoring();
     void MonitorDesktop();
     void CheckFilesInDirectory(const std::string& directory, std::set<std::string>& processedFiles);
+    void MessageReceived(BMessage* message) override;
+    void InstallClamAV(); // Function to install ClamAV
 
 private:
 			BMenuBar*		_BuildMenu();
