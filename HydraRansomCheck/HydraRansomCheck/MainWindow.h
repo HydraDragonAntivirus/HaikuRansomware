@@ -7,6 +7,7 @@
 #include <MenuItem.h>
 #include <Window.h>
 #include <string>
+#include <set>
 
 class MainWindow : public BWindow
 {
@@ -18,7 +19,7 @@ public:
 
     void StartMonitoring();
     void MonitorDesktop();
-	void CheckFilesInDirectory(const std::string& directory);
+    void CheckFilesInDirectory(const std::string& directory, std::set<std::string>& processedFiles);
 
 private:
 			BMenuBar*		_BuildMenu();
