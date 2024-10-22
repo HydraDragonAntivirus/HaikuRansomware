@@ -115,26 +115,35 @@ void MainWindow::StartMonitoring()
 void MainWindow::CheckFilesInDirectory(const std::string& directory, std::set<std::string>& processedFiles)
 {
     try {
-        // Monitor files in the specified directory
+        if (!std::filesystem::exists(directory) || !std::filesystem::is_directory(directory)) {
+            printf("Invalid directory: %s\n", directory.c_str());
+            return; // Exit if the directory is invalid
+        }
+
+        if (directory.length() > MAX_PATH_LENGTH) {
+            printf("Directory path too long: %s, skipping...\n", directory.c_str());
+            return; // Skip this directory
+        }
+
         for (const auto& entry : std::filesystem::directory_iterator(directory)) {
+            if (!entry) {
+                printf("Invalid entry encountered, skipping...\n");
+                continue; // Skip if entry is invalid
+            }
+
             if (entry.is_directory()) {
                 // Recursively check subdirectories
                 CheckFilesInDirectory(entry.path().string(), processedFiles);
-            }
-            else if (entry.is_regular_file()) {
-                std::string filename = entry.path().filename().string();
-                std::string extension = entry.path().extension().string();
-                printf("Found file: %s with extension: %s\n", filename.c_str(), extension.c_str());
-
-                // Check if this file has already been processed
-                if (processedFiles.find(filename) != processedFiles.end()) {
-                    continue; // Skip if already processed
+            } else if (entry.is_regular_file()) {
+                std::string fullPath = entry.path().string();
+                if (fullPath.length() > MAX_PATH_LENGTH) {
+                    printf("File path too long: %s, skipping...\n", fullPath.c_str());
+                    continue; // Skip this file
                 }
 
-                // Check the full path length instead of just filename
-                if (entry.path().string().length() > MAX_PATH_LENGTH) {
-                    printf("File path too long: %s, skipping...\n", entry.path().string().c_str());
-                    continue; // Skip this file
+                std::string filename = entry.path().filename().string();
+                if (processedFiles.find(filename) != processedFiles.end()) {
+                    continue; // Skip if already processed
                 }
 
                 processedFiles.insert(filename); // Mark this file as processed
@@ -168,6 +177,8 @@ void MainWindow::CheckFilesInDirectory(const std::string& directory, std::set<st
                 }
             }
         }
+    } catch (const std::filesystem::filesystem_error& e) {
+        printf("Filesystem error: %s\n", e.what());
     } catch (const std::exception& e) {
         printf("Exception caught: %s\n", e.what());
     }
