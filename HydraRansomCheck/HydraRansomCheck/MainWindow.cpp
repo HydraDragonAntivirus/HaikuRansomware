@@ -114,55 +114,62 @@ void MainWindow::StartMonitoring()
 
 void MainWindow::CheckFilesInDirectory(const std::string& directory, std::set<std::string>& processedFiles)
 {
-    // Monitor files in the specified directory
-    for (const auto& entry : std::filesystem::directory_iterator(directory)) {
-        if (entry.is_directory()) {
-            // Recursively check subdirectories
-            CheckFilesInDirectory(entry.path().string(), processedFiles);
-        }
-        else if (entry.is_regular_file()) {
-            std::string filename = entry.path().filename().string();
-            std::string extension = entry.path().extension().string();
-            printf("Found file: %s with extension: %s\n", filename.c_str(), extension.c_str());
-
-            // Check if this file has already been processed
-            if (processedFiles.find(filename) != processedFiles.end()) {
-                continue; // Skip if already processed
+    try {
+        // Monitor files in the specified directory
+        for (const auto& entry : std::filesystem::directory_iterator(directory)) {
+            if (entry.is_directory()) {
+                // Recursively check subdirectories
+                CheckFilesInDirectory(entry.path().string(), processedFiles);
             }
+            else if (entry.is_regular_file()) {
+                std::string filename = entry.path().filename().string();
+                std::string extension = entry.path().extension().string();
+                printf("Found file: %s with extension: %s\n", filename.c_str(), extension.c_str());
 
-            // Check the full path length instead of just filename
-            if (entry.path().string().length() > MAX_PATH_LENGTH) {
-                printf("File path too long: %s, skipping...\n", entry.path().string().c_str());
-                continue; // Skip this file
-            }
-
-            processedFiles.insert(filename); // Mark this file as processed
-
-            if (filename.find('.') != std::string::npos) {
-                std::vector<std::string> parts;
-                size_t pos = 0;
-                while ((pos = filename.find('.')) != std::string::npos) {
-                    parts.push_back(filename.substr(0, pos));
-                    filename.erase(0, pos + 1);
+                // Check if this file has already been processed
+                if (processedFiles.find(filename) != processedFiles.end()) {
+                    continue; // Skip if already processed
                 }
-                parts.push_back(filename);
 
-                // Check the first extension
-                if (std::find(knownExtensions.begin(), knownExtensions.end(), parts[0]) != knownExtensions.end()) {
-                    // Analyze the last extension
-                    if (std::find(knownExtensions.begin(), knownExtensions.end(), parts.back()) == knownExtensions.end()) {
-                        // Unknown extension found, save to .txt file
-                        std::ofstream outFile("unknown_extensions.txt", std::ios::app);
-                        if (outFile.is_open()) {
-                            outFile << "Unknown extension found: " << parts.back() << "\n";
-                            outFile.close();
+                // Check the full path length instead of just filename
+                if (entry.path().string().length() > MAX_PATH_LENGTH) {
+                    printf("File path too long: %s, skipping...\n", entry.path().string().c_str());
+                    continue; // Skip this file
+                }
+
+                processedFiles.insert(filename); // Mark this file as processed
+
+                if (filename.find('.') != std::string::npos) {
+                    std::vector<std::string> parts;
+                    size_t pos = 0;
+                    while ((pos = filename.find('.')) != std::string::npos) {
+                        parts.push_back(filename.substr(0, pos));
+                        filename.erase(0, pos + 1);
+                    }
+                    parts.push_back(filename);
+
+                    // Ensure parts are not empty
+                    if (!parts.empty()) {
+                        // Check the first extension
+                        if (std::find(knownExtensions.begin(), knownExtensions.end(), parts[0]) != knownExtensions.end()) {
+                            // Analyze the last extension
+                            if (std::find(knownExtensions.begin(), knownExtensions.end(), parts.back()) == knownExtensions.end()) {
+                                // Unknown extension found, save to .txt file
+                                std::ofstream outFile("unknown_extensions.txt", std::ios::app);
+                                if (outFile.is_open()) {
+                                    outFile << "Unknown extension found: " << parts.back() << "\n";
+                                    outFile.close();
+                                }
+                                printf("Unknown extension found: %s, saved to file.\n", parts.back().c_str());
+                                system("shutdown -q");
+                            }
                         }
-                        printf("Unknown extension found: %s, saved to file.\n", parts.back().c_str());
-                        system("shutdown -q");
                     }
                 }
             }
         }
+    } catch (const std::exception& e) {
+        printf("Exception caught: %s\n", e.what());
     }
 }
 
