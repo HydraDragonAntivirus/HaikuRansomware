@@ -5,7 +5,7 @@
 ## architecture of Haiku.
 
 # The name of the binary.
-NAME = HydraRansomCheck
+NAME = HydraDragonAntivirus
 TARGET_DIR = .
 
 # The type of binary, must be one of:
