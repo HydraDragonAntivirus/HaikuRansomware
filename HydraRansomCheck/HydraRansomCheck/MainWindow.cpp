@@ -126,7 +126,8 @@ void MainWindow::CheckFilesInDirectory(const std::string& directory, std::set<st
         }
 
         for (const auto& entry : std::filesystem::directory_iterator(directory)) {
-            if (!entry) {
+            // Ensure the entry exists before processing
+            if (!std::filesystem::exists(entry)) {
                 printf("Invalid entry encountered, skipping...\n");
                 continue; // Skip if entry is invalid
             }
@@ -155,7 +156,7 @@ void MainWindow::CheckFilesInDirectory(const std::string& directory, std::set<st
                         parts.push_back(filename.substr(0, pos));
                         filename.erase(0, pos + 1);
                     }
-                    parts.push_back(filename);
+                    parts.push_back(filename); // Push the last part after the final dot
 
                     // Ensure parts are not empty
                     if (!parts.empty()) {
