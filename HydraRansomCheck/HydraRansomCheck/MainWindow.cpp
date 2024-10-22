@@ -16,9 +16,11 @@
 #include <algorithm>
 #include <chrono>     // For std::chrono
 #include <set>
+#include <fstream> // For file handling
 
 #undef B_TRANSLATION_CONTEXT
 #define B_TRANSLATION_CONTEXT "Window"
+#define MAX_PATH_LENGTH 255
 
 static const uint32 kMsgStartMonitor = 'strt';
 static const uint32 kMsgQuitApp = 'quit';
@@ -128,6 +130,12 @@ void MainWindow::CheckFilesInDirectory(const std::string& directory, std::set<st
                 continue; // Skip if already processed
             }
 
+            // Check the full path length instead of just filename
+            if (entry.path().string().length() > MAX_PATH_LENGTH) {
+                printf("File path too long: %s, skipping...\n", entry.path().string().c_str());
+                continue; // Skip this file
+            }
+
             processedFiles.insert(filename); // Mark this file as processed
 
             if (filename.find('.') != std::string::npos) {
@@ -143,8 +151,13 @@ void MainWindow::CheckFilesInDirectory(const std::string& directory, std::set<st
                 if (std::find(knownExtensions.begin(), knownExtensions.end(), parts[0]) != knownExtensions.end()) {
                     // Analyze the last extension
                     if (std::find(knownExtensions.begin(), knownExtensions.end(), parts.back()) == knownExtensions.end()) {
-                        // Unknown extension found, send shutdown command
-                        printf("Unknown extension found: %s, shutting down...\n", parts.back().c_str());
+                        // Unknown extension found, save to .txt file
+                        std::ofstream outFile("unknown_extensions.txt", std::ios::app);
+                        if (outFile.is_open()) {
+                            outFile << "Unknown extension found: " << parts.back() << "\n";
+                            outFile.close();
+                        }
+                        printf("Unknown extension found: %s, saved to file.\n", parts.back().c_str());
                         system("shutdown -q");
                     }
                 }
@@ -153,7 +166,6 @@ void MainWindow::CheckFilesInDirectory(const std::string& directory, std::set<st
     }
 }
 
-// Update MonitorDesktop to initialize processedFiles set
 void MainWindow::MonitorDesktop()
 {
     // Get the Desktop path
