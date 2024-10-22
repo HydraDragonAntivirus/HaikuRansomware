@@ -55,3 +55,7 @@ This ransomware made in two days.
 ![Encryption Process Part2](assets/v2part2.png)
 ![Encryption Process Part3](assets/v2part3.png)
 - https://youtu.be/7yZlYx8h11I
+
+# DAY 3
+
+- https://www.youtube.com/watch?v=cvKeyhhMqFw
