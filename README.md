@@ -59,3 +59,7 @@ This ransomware made in two days.
 # DAY 3
 
 - https://www.youtube.com/watch?v=cvKeyhhMqFw
+
+- Other related repos: 
+- https://github.com/HydraDragonAntivirus/HaikuUEFI
+- https://github.com/HydraDragonAntivirus/HydraDragonAVHaiku
