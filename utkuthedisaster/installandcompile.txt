@@ -1,0 +1,2 @@
+pkgman install curl_devel libzip_devel
+g++ -o utkuthedisaster App.cpp -lzip -lcurl -lbe
