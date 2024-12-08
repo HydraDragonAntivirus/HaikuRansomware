@@ -254,7 +254,7 @@ public:
 private:
     void ShowHealthWarning() {
         BAlert* alert = new BAlert("Health Warning",
-            "WARNING: This program produces rapid flashing lights, chaotic effects, and disturbing messages that may trigger seizures or discomfort. Press Escape to exit at any time.",
+            "WARNING: This program produces rapid flashing lights, chaotic effects, and disturbing messages that may trigger seizures or discomfort. Press Alt+F4 to exit at any time.",
             "Exit", "Continue", nullptr, B_WIDTH_AS_USUAL, B_WARNING_ALERT);
 
         int32 response = alert->Go();
