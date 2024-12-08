@@ -1,0 +1,1 @@
+g++ -o AntiHaiku AntiHaiku.cpp -lbe

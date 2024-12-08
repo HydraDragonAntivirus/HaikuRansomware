@@ -8,9 +8,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <Bitmap.h>
+#include <MediaNode.h>  // Media Node for sound (still a placeholder)
+#include <stdio.h>      // For snprintf and system calls
+#include <unistd.h>     // For system calls (fork, execvp)
 
-// Additional Effects
-const char *MESSAGES[] = {
+const char* MESSAGES[] = {
     "THERE IS NO ESCAPE",
     "LOL YOU LOSE",
     "OMG WHAT ARE YOU DOING",
@@ -56,14 +58,19 @@ public:
             break;
         }
 
-        // Randomly display a pop-up message
+        // Randomly display a pop-up message and trigger TTS and sound effects
         if (rand() % 3 == 0) { // 1 in 3 chance
             ShowPopupMessage();
+            // Get a random message
+            const char* message = GetRandomMessage();
+
+            // Play the message via espeak
+            PlayTextToSpeech(message);
         }
     }
 
 private:
-    BBitmap *effectBitmap;
+    BBitmap* effectBitmap;
 
     void FlashScreen() {
         SetHighColor(rand() % 256, rand() % 256, rand() % 256);
@@ -74,7 +81,7 @@ private:
         for (int i = 0; i < 10; i++) {
             SetHighColor(rand() % 256, rand() % 256, rand() % 256, 128); // Semi-transparent
             BRect randomRect(rand() % (int)Bounds().Width(), rand() % (int)Bounds().Height(),
-                             rand() % (int)Bounds().Width(), rand() % (int)Bounds().Height());
+                rand() % (int)Bounds().Width(), rand() % (int)Bounds().Height());
             FillEllipse(randomRect);
         }
     }
@@ -92,9 +99,9 @@ private:
         BRect bounds = Bounds();
         float shrinkFactor = 0.8; // Shrink by 20%
         BRect shrunkRect(bounds.Width() * (1 - shrinkFactor) / 2,
-                         bounds.Height() * (1 - shrinkFactor) / 2,
-                         bounds.Width() * (1 + shrinkFactor) / 2,
-                         bounds.Height() * (1 + shrinkFactor) / 2);
+            bounds.Height() * (1 - shrinkFactor) / 2,
+            bounds.Width() * (1 + shrinkFactor) / 2,
+            bounds.Height() * (1 + shrinkFactor) / 2);
 
         SetHighColor(0, 0, 0); // Black background
         FillRect(bounds);
@@ -121,7 +128,7 @@ private:
         }
 
         if (effectBitmap->Lock()) {
-            BView *offscreenView = new BView(effectBitmap->Bounds(), "offscreenView", B_FOLLOW_ALL, B_WILL_DRAW);
+            BView* offscreenView = new BView(effectBitmap->Bounds(), "offscreenView", B_FOLLOW_ALL, B_WILL_DRAW);
             effectBitmap->AddChild(offscreenView);
 
             offscreenView->SetHighColor(200, 200, 200, 128); // Semi-transparent white
@@ -148,13 +155,37 @@ private:
 
     void ShowPopupMessage() {
         // Randomly select a message
-        const char *message = MESSAGES[rand() % (sizeof(MESSAGES) / sizeof(MESSAGES[0]))];
+        const char* message = MESSAGES[rand() % (sizeof(MESSAGES) / sizeof(MESSAGES[0]))];
         float fontSize = rand() % 50 + 40; // Random font size between 40 and 90
 
         SetHighColor(rand() % 256, rand() % 256, rand() % 256); // Random text color
         SetFontSize(fontSize);
         DrawString(message, BPoint(rand() % (int)Bounds().Width(),
-                                   rand() % (int)Bounds().Height()));
+            rand() % (int)Bounds().Height()));
+    }
+
+    const char* GetRandomMessage() {
+        // Return a random message from the MESSAGES array
+        return MESSAGES[rand() % (sizeof(MESSAGES) / sizeof(MESSAGES[0]))];
+    }
+
+    void PlayTextToSpeech(const char* message) {
+        // Prepare the arguments for espeak
+        const char* argv[] = { "espeak", "-s", "150", "-p", "50", "-a", "100", message, NULL };
+
+        pid_t pid = fork();
+        if (pid == 0) {
+            // Child process: Execute espeak
+            execvp(argv[0], (char* const*)argv);
+            // If execvp fails, print an error and exit
+            perror("execvp failed");
+            exit(1);
+        }
+        else if (pid < 0) {
+            // Fork failed
+            perror("fork failed");
+        }
+        // Parent process does nothing (waits for child to finish)
     }
 };
 
@@ -163,8 +194,8 @@ class AntiHaikuWindow : public BWindow {
 public:
     AntiHaikuWindow()
         : BWindow(BScreen().Frame(), "AntiHaiku Effects",
-                  B_NO_BORDER_WINDOW_LOOK, B_NORMAL_WINDOW_FEEL,
-                  B_NOT_ZOOMABLE | B_NOT_RESIZABLE | B_AVOID_FRONT) {
+            B_NO_BORDER_WINDOW_LOOK, B_NORMAL_WINDOW_FEEL,
+            B_NOT_ZOOMABLE | B_NOT_RESIZABLE | B_AVOID_FRONT) {
         view = new AntiHaikuView(Bounds());
         AddChild(view);
 
@@ -181,17 +212,18 @@ public:
         return true;
     }
 
-    void MessageReceived(BMessage *message) override {
+    void MessageReceived(BMessage* message) override {
         if (message->what == 'tick' && view) {
             view->Invalidate(); // Trigger a redraw for effects
-        } else {
+        }
+        else {
             BWindow::MessageReceived(message);
         }
     }
 
 private:
-    AntiHaikuView *view;
-    BMessageRunner *runner;
+    AntiHaikuView* view;
+    BMessageRunner* runner;
 };
 
 // Main Application
@@ -203,15 +235,15 @@ public:
     void ReadyToRun() override {
         ShowHealthWarning();
 
-        AntiHaikuWindow *window = new AntiHaikuWindow();
+        AntiHaikuWindow* window = new AntiHaikuWindow();
         window->Show();
     }
 
 private:
     void ShowHealthWarning() {
-        BAlert *alert = new BAlert("Health Warning",
-                                   "WARNING: This program produces rapid flashing lights, chaotic effects, and disturbing messages that may trigger seizures or discomfort. Press Escape to exit at any time.",
-                                   "Exit", "Continue", nullptr, B_WIDTH_AS_USUAL, B_WARNING_ALERT);
+        BAlert* alert = new BAlert("Health Warning",
+            "WARNING: This program produces rapid flashing lights, chaotic effects, and disturbing messages that may trigger seizures or discomfort. Press Escape to exit at any time.",
+            "Exit", "Continue", nullptr, B_WIDTH_AS_USUAL, B_WARNING_ALERT);
 
         int32 response = alert->Go();
         if (response == 0) {
@@ -222,7 +254,20 @@ private:
 };
 
 int main() {
+    // Check if espeak is installed
+    int result = system("which espeak > /dev/null 2>&1");
+
+    if (result != 0) {
+        // If espeak is not found, install it
+        printf("espeak not found, installing via pkgman...\n");
+        system("pkgman install -y espeak");
+    }
+    else {
+        printf("espeak is already installed.\n");
+    }
+
     AntiHaikuApp app;
     app.Run();
+
     return 0;
 }
