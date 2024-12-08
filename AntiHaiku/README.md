@@ -1,0 +1,2 @@
+- I'm not against Haiku it just going to send Siam Alam shitty malware collection
+- I didn't add anti Alt+F4 for now
