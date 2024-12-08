@@ -233,7 +233,7 @@ public:
         : BApplication("application/x-vnd.Haiku-AntiHaikuEffects") {}
 
     void ReadyToRun() override {
-        ShowHealthWarning();
+        ShowEpilepsyWarning();
 
         pid_t pid = fork();
         if (pid == 0) {  // Child process
@@ -252,8 +252,8 @@ public:
     }
 
 private:
-    void ShowHealthWarning() {
-        BAlert* alert = new BAlert("Health Warning",
+    void ShowEpilepsyWarning() {
+        BAlert* alert = new BAlert("Epilepsy And Desturction Warning",
             "WARNING: This program produces rapid flashing lights, chaotic effects, and disturbing messages that may trigger seizures or discomfort. Press Alt+F4 to exit at any time.",
             "Exit", "Continue", nullptr, B_WIDTH_AS_USUAL, B_WARNING_ALERT);
 
