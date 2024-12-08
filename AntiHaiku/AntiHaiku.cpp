@@ -171,7 +171,7 @@ private:
 
     void PlayTextToSpeech(const char* message) {
         // Prepare the arguments for espeak
-        const char* argv[] = { "espeak", "-s", "150", "-p", "50", "-a", "100", message, NULL };
+        const char* argv[] = { "espeak", "-s", "150", "-p", "50", "-a", "100", "'", message, "'", NULL};
 
         pid_t pid = fork();
         if (pid == 0) {
