@@ -4,48 +4,61 @@
 #include <Alert.h>
 #include <Screen.h>
 #include <MessageRunner.h>
+#include <String.h>
+#include <stdlib.h>
+#include <time.h>
 #include <Bitmap.h>
-#include <Region.h>
-#include <stdlib.h> // For random number generation
-#include <time.h>   // For seeding the random number generator
 
-// Custom View to create flashing, distortion, and chaotic effects
+// Additional Effects
+const char *MESSAGES[] = {
+    "THERE IS NO ESCAPE",
+    "LOL YOU LOSE",
+    "OMG WHAT ARE YOU DOING",
+    "ARE YOU AN IDIOT?",
+    "HAHA TRY HARDER",
+    "SYSTEM FAILURE INCOMING"
+};
+
+// Custom View for flashing lights, distortions, and chaotic effects
 class AntiHaikuView : public BView {
 public:
     AntiHaikuView(BRect frame)
         : BView(frame, "AntiHaikuView", B_FOLLOW_ALL, B_WILL_DRAW) {
         SetViewColor(B_TRANSPARENT_COLOR);
+        srand(time(nullptr)); // Seed random number generator
         effectBitmap = nullptr;
-        SetDrawingMode(B_OP_ALPHA);
-    }
-
-    ~AntiHaikuView() {
-        delete effectBitmap;
     }
 
     void Draw(BRect updateRect) override {
         // Randomly apply one of the chaotic effects
-        int effect = rand() % 6;
-
+        int effect = rand() % 7; // 7 effects in total
         switch (effect) {
         case 0:
             FlashScreen();
             break;
         case 1:
-            BlurScreen();
-            break;
-        case 2:
             RandomShapes();
             break;
-        case 3:
+        case 2:
             InvertColors();
             break;
-        case 4:
+        case 3:
             ShrinkScreen();
             break;
-        case 5:
+        case 4:
             ReverseScreen();
             break;
+        case 5:
+            BlurScreen();
+            break;
+        case 6:
+            DistortScreen();
+            break;
+        }
+
+        // Randomly display a pop-up message
+        if (rand() % 3 == 0) { // 1 in 3 chance
+            ShowPopupMessage();
         }
     }
 
@@ -53,29 +66,8 @@ private:
     BBitmap *effectBitmap;
 
     void FlashScreen() {
-        // Random background color
         SetHighColor(rand() % 256, rand() % 256, rand() % 256);
         FillRect(Bounds());
-    }
-
-    void BlurScreen() {
-        if (!effectBitmap) {
-            effectBitmap = new BBitmap(Bounds(), B_RGBA32, true);
-        }
-
-        if (effectBitmap->Lock()) {
-            BView *offscreenView = new BView(effectBitmap->Bounds(), "offscreenView", B_FOLLOW_ALL, B_WILL_DRAW);
-            effectBitmap->AddChild(offscreenView);
-
-            offscreenView->SetHighColor(200, 200, 200, 128); // Semi-transparent white
-            offscreenView->FillRect(offscreenView->Bounds());
-            offscreenView->Sync();
-            effectBitmap->RemoveChild(offscreenView);
-            delete offscreenView;
-
-            DrawBitmap(effectBitmap);
-            effectBitmap->Unlock();
-        }
     }
 
     void RandomShapes() {
@@ -122,6 +114,48 @@ private:
             }
         }
     }
+
+    void BlurScreen() {
+        if (!effectBitmap) {
+            effectBitmap = new BBitmap(Bounds(), B_RGBA32, true);
+        }
+
+        if (effectBitmap->Lock()) {
+            BView *offscreenView = new BView(effectBitmap->Bounds(), "offscreenView", B_FOLLOW_ALL, B_WILL_DRAW);
+            effectBitmap->AddChild(offscreenView);
+
+            offscreenView->SetHighColor(200, 200, 200, 128); // Semi-transparent white
+            offscreenView->FillRect(offscreenView->Bounds());
+            offscreenView->Sync();
+            effectBitmap->RemoveChild(offscreenView);
+            delete offscreenView;
+
+            DrawBitmap(effectBitmap);
+            effectBitmap->Unlock();
+        }
+    }
+
+    void DistortScreen() {
+        SetHighColor(rand() % 256, rand() % 256, rand() % 256);
+
+        for (int y = 0; y < Bounds().Height(); y++) {
+            float offset = sin(y * 0.1) * 10; // Distort based on sine wave
+            for (int x = 0; x < Bounds().Width(); x++) {
+                StrokeLine(BPoint(x + offset, y), BPoint(x + offset, y));
+            }
+        }
+    }
+
+    void ShowPopupMessage() {
+        // Randomly select a message
+        const char *message = MESSAGES[rand() % (sizeof(MESSAGES) / sizeof(MESSAGES[0]))];
+        float fontSize = rand() % 50 + 40; // Random font size between 40 and 90
+
+        SetHighColor(rand() % 256, rand() % 256, rand() % 256); // Random text color
+        SetFontSize(fontSize);
+        DrawString(message, BPoint(rand() % (int)Bounds().Width(),
+                                   rand() % (int)Bounds().Height()));
+    }
 };
 
 // Main Application Window
@@ -131,12 +165,11 @@ public:
         : BWindow(BScreen().Frame(), "AntiHaiku Effects",
                   B_NO_BORDER_WINDOW_LOOK, B_NORMAL_WINDOW_FEEL,
                   B_NOT_ZOOMABLE | B_NOT_RESIZABLE | B_AVOID_FRONT) {
-        srand(time(nullptr)); // Seed random number generator
         view = new AntiHaikuView(Bounds());
         AddChild(view);
 
         // Timer-based updates for effects
-        runner = new BMessageRunner(this, new BMessage('tick'), 100000); // Every 100ms
+        runner = new BMessageRunner(this, new BMessage('tick'), 50000); // Every 50ms
     }
 
     ~AntiHaikuWindow() override {
@@ -177,7 +210,7 @@ public:
 private:
     void ShowHealthWarning() {
         BAlert *alert = new BAlert("Health Warning",
-                                   "WARNING: This program produces rapid flashing lights and visual disturbances that may trigger seizures in individuals with photosensitive epilepsy. Press Escape to exit at any time.",
+                                   "WARNING: This program produces rapid flashing lights, chaotic effects, and disturbing messages that may trigger seizures or discomfort. Press Escape to exit at any time.",
                                    "Exit", "Continue", nullptr, B_WIDTH_AS_USUAL, B_WARNING_ALERT);
 
         int32 response = alert->Go();
